@@ -3926,11 +3926,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\My Drive\\Cursos\\TUP\\1 año\\2 cuatrimestre\\20-PII\\TPI\\CineTPIProgII\\CineTPIProgII\\CineTPIProgII.csproj",
+      "projectUniqueName": "C:\\Users\\jdalmaso_voyansi\\Documents\\Git\\PII-TPI-Grupo26\\Backend\\CineTPIProgII\\CineTPIProgII.csproj",
       "projectName": "CineTPIProgII",
-      "projectPath": "H:\\My Drive\\Cursos\\TUP\\1 año\\2 cuatrimestre\\20-PII\\TPI\\CineTPIProgII\\CineTPIProgII\\CineTPIProgII.csproj",
+      "projectPath": "C:\\Users\\jdalmaso_voyansi\\Documents\\Git\\PII-TPI-Grupo26\\Backend\\CineTPIProgII\\CineTPIProgII.csproj",
       "packagesPath": "C:\\Users\\jdalmaso_voyansi\\.nuget\\packages\\",
-      "outputPath": "H:\\My Drive\\Cursos\\TUP\\1 año\\2 cuatrimestre\\20-PII\\TPI\\CineTPIProgII\\CineTPIProgII\\obj\\",
+      "outputPath": "C:\\Users\\jdalmaso_voyansi\\Documents\\Git\\PII-TPI-Grupo26\\Backend\\CineTPIProgII\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
