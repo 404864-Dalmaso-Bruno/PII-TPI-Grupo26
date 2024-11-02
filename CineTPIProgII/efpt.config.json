@@ -1,0 +1,146 @@
+﻿{
+   "CodeGenerationMode": 3,
+   "ContextClassName": "CineProgContext",
+   "ContextNamespace": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "Models",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "CineTPIProgII",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 2,
+   "SelectedToBeGenerated": 0,
+   "T4TemplatePath": null,
+   "Tables": [
+      {
+         "Name": "[dbo].[ACTORES]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BARRIOS]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BUTACAS]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CARGOS]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CLASIFICACIONES]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CLIENTES]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DETALLES_TICKET]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DIRECTORES]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EMPLEADOS]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FORMAS_PAGO]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FORMATOS]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FUNCIONES]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[GENEROS]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[HORARIOS]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[IDIOMAS]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MEDIOS_PEDIDO]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[NACIONALIDADES]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PELICULAS]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PELICULAS_ACTORES]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PELICULAS_DIRECTORES]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PROMOCIONES]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RESERVADAS]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SALAS]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TICKETS]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TIPOS_DOC]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TIPOS_SALAS]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": null,
+   "UncountableWords": null,
+   "UseAsyncStoredProcedureCalls": true,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDateOnlyTimeOnly": false,
+   "UseDbContextSplitting": false,
+   "UseDecimalDataAnnotationForSprocResult": true,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": true,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UsePrefixNavigationNaming": false,
+   "UseSchemaFolders": false,
+   "UseSchemaNamespaces": false,
+   "UseSpatial": false,
+   "UseT4": false
+}

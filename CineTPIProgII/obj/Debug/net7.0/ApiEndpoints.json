@@ -1,0 +1,312 @@
+[
+  {
+    "ContainingType": "CineTPIProgII.Controllers.FuncionesController",
+    "Method": "Post",
+    "RelativePath": "api/Funciones",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "funcion",
+        "Type": "CineTPIProgII.Models.Funcione",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CineTPIProgII.Controllers.FuncionesController",
+    "Method": "Put",
+    "RelativePath": "api/Funciones/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "funcion",
+        "Type": "CineTPIProgII.Models.Funcione",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CineTPIProgII.Controllers.FuncionesController",
+    "Method": "Delete",
+    "RelativePath": "api/Funciones/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CineTPIProgII.Controllers.FuncionesController",
+    "Method": "GetHorarios",
+    "RelativePath": "api/Funciones/Combo/Horarios",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CineTPIProgII.Controllers.FuncionesController",
+    "Method": "GetPeliculas",
+    "RelativePath": "api/Funciones/Combo/Peliculas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CineTPIProgII.Controllers.FuncionesController",
+    "Method": "GetSalas",
+    "RelativePath": "api/Funciones/Combo/Salas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CineTPIProgII.Controllers.FuncionesController",
+    "Method": "GetFunciones",
+    "RelativePath": "api/Funciones/Funciones",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CineTPIProgII.Controllers.FuncionesController",
+    "Method": "GetFuncionPorID",
+    "RelativePath": "api/Funciones/Funciones/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CineTPIProgII.Controllers.PeliculasController",
+    "Method": "GetPeliculas",
+    "RelativePath": "api/Peliculas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CineTPIProgII.Controllers.PeliculasController",
+    "Method": "GuardarPelicula",
+    "RelativePath": "api/Peliculas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nueva",
+        "Type": "CineTPIProgII.Models.Pelicula",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CineTPIProgII.Controllers.PeliculasController",
+    "Method": "GetPeliculaPorId",
+    "RelativePath": "api/Peliculas/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CineTPIProgII.Controllers.PeliculasController",
+    "Method": "Put",
+    "RelativePath": "api/Peliculas/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "pelicula",
+        "Type": "CineTPIProgII.Models.Pelicula",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CineTPIProgII.Controllers.PeliculasController",
+    "Method": "BorrarPelicula",
+    "RelativePath": "api/Peliculas/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CineTPIProgII.Controllers.TicketsController",
+    "Method": "Post",
+    "RelativePath": "api/Tickets",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nuevo",
+        "Type": "CineTPIProgII.Models.Ticket",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CineTPIProgII.Controllers.TicketsController",
+    "Method": "BajaTicket",
+    "RelativePath": "api/Tickets/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CineTPIProgII.Controllers.TicketsController",
+    "Method": "GetButacas",
+    "RelativePath": "Butacas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CineTPIProgII.Controllers.PeliculasController",
+    "Method": "GetClasificaciones",
+    "RelativePath": "clasificaciones",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CineTPIProgII.Controllers.TicketsController",
+    "Method": "GetClientes",
+    "RelativePath": "Clientes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CineTPIProgII.Controllers.TicketsController",
+    "Method": "GetFormasDePago",
+    "RelativePath": "FormasDePago",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CineTPIProgII.Controllers.TicketsController",
+    "Method": "GetFunciones",
+    "RelativePath": "Funciones",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CineTPIProgII.Controllers.PeliculasController",
+    "Method": "GetGeneros",
+    "RelativePath": "generos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CineTPIProgII.Controllers.PeliculasController",
+    "Method": "GetIdiomas",
+    "RelativePath": "idiomas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CineTPIProgII.Controllers.TicketsController",
+    "Method": "GetMediosDeVenta",
+    "RelativePath": "MedioDeVenta",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CineTPIProgII.Controllers.TicketsController",
+    "Method": "GetPromociones",
+    "RelativePath": "Promociones",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

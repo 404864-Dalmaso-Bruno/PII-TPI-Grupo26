@@ -1,0 +1,154 @@
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\appsettings.json
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\efpt.config.json
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\CineTPIProgII.exe
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\CineTPIProgII.deps.json
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\CineTPIProgII.runtimeconfig.json
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\CineTPIProgII.dll
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\CineTPIProgII.pdb
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\Humanizer.dll
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\obj\Debug\net7.0\CineTPIProgII.csproj.AssemblyReference.cache
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\obj\Debug\net7.0\CineTPIProgII.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\obj\Debug\net7.0\CineTPIProgII.AssemblyInfoInputs.cache
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\obj\Debug\net7.0\CineTPIProgII.AssemblyInfo.cs
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\obj\Debug\net7.0\CineTPIProgII.csproj.CoreCompileInputs.cache
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\obj\Debug\net7.0\CineTPIProgII.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\obj\Debug\net7.0\CineTPIProgII.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\obj\Debug\net7.0\staticwebassets\msbuild.CineTPIProgII.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\obj\Debug\net7.0\staticwebassets\msbuild.build.CineTPIProgII.props
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.CineTPIProgII.props
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.CineTPIProgII.props
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\obj\Debug\net7.0\scopedcss\bundle\CineTPIProgII.styles.css
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\obj\Debug\net7.0\CineTPIProgII.csproj.CopyComplete
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\obj\Debug\net7.0\CineTPIProgII.dll
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\obj\Debug\net7.0\refint\CineTPIProgII.dll
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\obj\Debug\net7.0\CineTPIProgII.pdb
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\obj\Debug\net7.0\CineTPIProgII.genruntimeconfig.cache
+C:\Users\esequ\source\repos\CineTPIProgII\CineTPIProgII\obj\Debug\net7.0\ref\CineTPIProgII.dll
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\obj\Debug\net7.0\CineTPIProgII.csproj.AssemblyReference.cache
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\obj\Debug\net7.0\CineTPIProgII.GeneratedMSBuildEditorConfig.editorconfig
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\obj\Debug\net7.0\CineTPIProgII.AssemblyInfoInputs.cache
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\obj\Debug\net7.0\CineTPIProgII.AssemblyInfo.cs
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\obj\Debug\net7.0\CineTPIProgII.csproj.CoreCompileInputs.cache
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\obj\Debug\net7.0\CineTPIProgII.MvcApplicationPartsAssemblyInfo.cs
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\obj\Debug\net7.0\CineTPIProgII.MvcApplicationPartsAssemblyInfo.cache
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\obj\Debug\net7.0\CineTPIProgII.dll
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\obj\Debug\net7.0\refint\CineTPIProgII.dll
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\obj\Debug\net7.0\CineTPIProgII.pdb
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\appsettings.Development.json
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\efpt.config.json
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\appsettings.json
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\CineTPIProgII.exe
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\CineTPIProgII.deps.json
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\CineTPIProgII.runtimeconfig.json
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\CineTPIProgII.dll
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\CineTPIProgII.pdb
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\Azure.Core.dll
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\Azure.Identity.dll
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\Humanizer.dll
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\Microsoft.OpenApi.dll
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\Mono.TextTemplating.dll
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\System.CodeDom.dll
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\System.Drawing.Common.dll
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\System.Memory.Data.dll
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\System.Runtime.Caching.dll
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\System.Security.Permissions.dll
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\System.Windows.Extensions.dll
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\obj\Debug\net7.0\staticwebassets.build.json
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\obj\Debug\net7.0\staticwebassets.development.json
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\obj\Debug\net7.0\staticwebassets\msbuild.CineTPIProgII.Microsoft.AspNetCore.StaticWebAssets.props
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\obj\Debug\net7.0\staticwebassets\msbuild.build.CineTPIProgII.props
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.CineTPIProgII.props
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.CineTPIProgII.props
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\obj\Debug\net7.0\staticwebassets.pack.json
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\obj\Debug\net7.0\scopedcss\bundle\CineTPIProgII.styles.css
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\obj\Debug\net7.0\CineTPIP.C5E8E007.Up2Date
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\obj\Debug\net7.0\CineTPIProgII.genruntimeconfig.cache
+H:\My Drive\Cursos\TUP\1 año\2 cuatrimestre\20-PII\TPI\CineTPIProgII\CineTPIProgII\obj\Debug\net7.0\ref\CineTPIProgII.dll
