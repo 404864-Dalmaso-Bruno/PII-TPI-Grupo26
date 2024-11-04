@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Styles/StyleIndex.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script> 
+    <!-- Iconos de Bootstrap --> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap/icons.css" rel="stylesheet"> 
+
+</head>
+<body>
+    <nav class="menu">
+        
+        <ul>
+            <li><a href="index.html" >INICIO </a></li>
+            <li><a href="Peliculas.html">PELICULAS</a></li>
+            <li><a href="funciones.html">FUNCIONES</a></li>
+            <li><a href="tickets.html" class="actual">TICKETS <<</a></li>
+        </ul>
+        
+        <ul>
+            <li><a href="nosotros.html">NOSOTROS</a></li>
+            <li><a href="#">CERRAR SESION</a></li>
+            <li><a href="#">SALIR</a></li>
+        </ul>
+    </nav>
+ 
+    <div id="content">
+        <div class="container mt-4">
+        <form id="form-orden">
+        <!-- Primera fila: Formulario básico -->
+            <div class="row mb-3">
+                <div class="col-12">
+                    <h3>Crear ticket</h3>
+                    <!-- fila ========================================================================== fila -->
+                    <div class="row">
+                        <div class="col-4">
+                            <label for="orderDate" class="formlabel">Fecha</label>
+                            <input type="text" class="form-control" id="input-fecha" readonly>
+                        </div>
+                        <div class="col-4">
+
+                        </div>
+                        <div class="col-4">
+                            <label for="orderDate" class="formlabel">Empleado</label>
+                            <input type="text" class="form-control" id="empleado" placeholder="Admin" readonly>
+                        </div>
+                    </div>
+                     <!-- fila ========================================================================== fila -->
+                    <div class="row g-3">
+                        <div class="col-md-4">
+                            <label for="component" class="formlabel">Cliente</label>
+                            <select class="form-select" id="listaClientes">
+                                <option value="1">cliente 1</option>
+                                <option value="2">cliente 2</option>
+                                <option value="3">cliente 3"</option>
+                                <option value="4">cliente 5"</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="component" class="formlabel">Forma pago</label>
+                            <select class="form-select" id="listaFormasPago">
+                                <option value="1">cliente 1</option>
+                                <option value="2">cliente 2</option>
+                                <option value="3">cliente 3"</option>
+                                <option value="4">cliente 5"</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="component" class="formlabel">Promociones</label>
+                            <select class="form-select" id="listaPromociones">
+                                <option value="1">cliente 1</option>
+                                <option value="2">cliente 2</option>
+                                <option value="3">cliente 3"</option>
+                                <option value="4">cliente 5"</option>
+                            </select>
+                        </div>
+                    <div class="mb-3">
+                     <!-- fila ========================================================================== fila -->
+
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <label for="component" class="formlabel">funcion</label>
+                            <select class="form-select" id="listaFunciones">
+                                <option value="1">cliente 1</option>
+                                <option value="2">cliente 2</option>
+                                <option value="3">cliente 3"</option>
+                                <option value="4">cliente 5"</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2">
+                            <label for="orderDate" class="formlabel"  >Precio butaca</label>
+                            <input type="text" class="form-control" id="labelPrecio" readonly >
+                        </div>
+                    </div>
+                    <!-- fila ========================================================================== fila -->
+                </div>
+            </div>
+        <hr>
+        <!-- Segunda fila: Formulario de componentes -->
+            <div class="row mb-3">
+                <div class="col-12">
+                <h4>Listado de butacas</h4>
+                    <div class="row g-3">
+                        <div class="col-md-4">
+                            <label for="component" class="formlabel"></label>
+                            <select class="form-select" id="component">
+                                <option value="1">Butaca 1</option>
+                                <option value="2">Butaca2</option>
+                                <option value="3">Butaca3</option>
+                                <option value="4">Butaca5</option>
+                            </select>
+                        </div>
+                        
+                        <div class="col-md-2 d-flex align-items-end">
+                            <button type="button" disabled class="btn btn-primary" id="addDetailBtn">
+                                <i class="fas fa-plus"></i> Agregar a la lista
+                            </button>
+                        </div>
+                    <!-- Tabla de detalles ==================================================================TABLA DETALLES-->
+                            <div class="col-md-12">
+                                <table class="table table-bordered" id="detailsTable">
+                                    <thead> <!-- cabecera de la tabla-->
+                                        <tr>
+                                            <th>Nro butaca </th>
+                                        </tr>
+                                    </thead>
+                                    <!-- BODY DE LA TABLA------------------------------------------- -->
+                                    <tbody>
+                                        <!-- Filas generadas dinámicamente --> 
+                                    </tbody>
+
+                                </table>
+                            </div>
+                    <!-- Botón de Guardar -->
+                        <div class="row">
+                            <div class="col-12 text-end">
+                                <button type="submit" class="btn btnsuccess">
+                                <i class="fas fa-save"></i> Guardar
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+        </div>
+    </div>
+    <script>
+    // Establecer la fecha actual en el campo de fecha
+    document.getElementById('input-fecha').value = new Date().toLocaleDateString('es-ES');
+    // Agregar funcionalidad para "Agregar al detalle"
+    document.getElementById('addDetailBtn').addEventListener('click',
+    function () {
+    const componentSelect = document.getElementById('component');
+    const componentId = componentSelect.value;
+    const componentName = componentSelect.options[componentSelect.selectedIndex].text;
+    const componentQty = document.getElementById('componentQty').value;
+    if (componentQty > 0) {
+    const tableBody = document.querySelector('#detailsTable');//Esto esta mal en el apunte
+    const newRow = document.createElement('tr');
+    newRow.innerHTML = `
+    <td>${componentId}</td>
+    <td>${componentName}</td>
+    <td>${componentQty}</td>
+    `;
+    tableBody.appendChild(newRow);
+    // Limpiar inputs después de agregar
+    document.getElementById('componentQty').value = '';
+    document.getElementById('component').selectedIndex = 0;
+    } else {
+    alert("Por favor, ingresa una cantidad válida.");
+    }
+    });
+    </script>
+
+    <script>
+    document.getElementById('toggle-btn').addEventListener('click',
+    function () {
+    const sidebar = document.getElementById('sidebar');
+    const icon = document.getElementById('toggle-icon');
+    sidebar.classList.toggle('collapsed');
+    });
+    </script>
+    <script src="js/tickets.js"></script>
+</body>
+</html>
