@@ -2,7 +2,7 @@
 document.addEventListener('DOMContentLoaded', () => { 
     const elBoton = document.getElementById("elBoton"); // Asegúrate de que el botón esté definido
     elBoton.innerHTML = 'Carga';
-    const API_URL = 'https://localhost:7283/api/Peliculas'; 
+    const API_URL = 'https://localhost:44321/api/Peliculas'; 
 
     // Función para obtener las películas 
     async function fetchPeliculas() { 
@@ -19,8 +19,6 @@ document.addEventListener('DOMContentLoaded', () => {
     function cargarPeliculas(peliculas) { 
         const tbody = document.getElementById('peliculas-body'); 
         tbody.innerHTML = ''; // Limpiar la tabla antes de agregar nuevas filas 
-        const imagen = document.getElementById("imagenCarga");
-        imagen.style.display = 'none';
         peliculas.forEach(pelicula => { 
             const row = document.createElement('tr'); 
             row.id = `fila-${pelicula.idPelicula}`; // Asignar ID único a la fila

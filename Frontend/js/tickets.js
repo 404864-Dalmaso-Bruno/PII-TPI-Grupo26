@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => { 
-    const API_URL = 'https://localhost:7283'; 
+    const API_URL = 'https://localhost:44321'; 
  
     // Obtener los elementos del formulario 
     const form = document.getElementById('form-orden'); 
@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Cargar Clientes en el select 
     async function cargarClientes() { 
         try { 
-            const response = await fetch(`https://localhost:7283/Clientes`); 
+            const response = await fetch(`https://localhost:44321/Clientes`); 
             const clientes = await response.json();
             selectclientes .innerHTML = '';
             clientes.forEach(cliente => { 
@@ -36,7 +36,7 @@ const selectFormasPago = document.getElementById('listaFormasPago');
     // Cargar formaPago en el select 
     async function cargarformaPago() { 
         try { 
-            const response = await fetch(`https://localhost:7283/FormasDePago`); 
+            const response = await fetch(`https://localhost:44321/FormasDePago`); 
             const formasPago = await response.json();
             selectFormasPago .innerHTML = '';
             formasPago.forEach(formaPago => { 
@@ -57,7 +57,7 @@ const selectPromociones = document.getElementById('listaPromociones');
     // Cargar Promociones en el select 
     async function cargarPromocion() { 
         try { 
-            const response = await fetch(`https://localhost:7283/Promociones`); 
+            const response = await fetch(`https://localhost:44321/Promociones`); 
             const Promociones = await response.json();
             selectPromociones .innerHTML = '';
             Promociones.forEach(Promocion => { 
@@ -79,7 +79,7 @@ const precioLabel = document.getElementById('labelPrecio');
     // Cargar Funciones en el select 
     async function cargarFuncion() { 
         try { 
-            const response = await fetch(`https://localhost:7283/Funciones`); 
+            const response = await fetch(`https://localhost:44321/Funciones`); 
             const Funciones = await response.json();
             selectFunciones .innerHTML = '';
             Funciones.forEach(Funcion => { 
