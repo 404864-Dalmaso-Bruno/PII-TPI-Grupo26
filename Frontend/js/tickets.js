@@ -2,14 +2,44 @@ document.addEventListener('DOMContentLoaded', () => {
     const API_URL = 'https://localhost:44321'; 
  
     // Obtener los elementos del formulario 
-    const form = document.getElementById('form-orden'); 
-    const inputFecha = document.getElementById('input-fecha'); 
-    const inputModelo = document.getElementById('input-modelo'); 
-    const inputCantidad = document.getElementById('input-cantidad'); 
+    // const form = document.getElementById('form-orden'); 
+    // const inputFecha = document.getElementById('input-fecha'); 
+    // const inputModelo = document.getElementById('input-modelo'); 
+    // const inputCantidad = document.getElementById('input-cantidad'); 
 
+    const selectclientes = document.getElementById('listaClientes'); 
+    const selectFormasPago = document.getElementById('listaFormasPago'); 
+    const selectPromociones = document.getElementById('listaPromociones');
+    const selectFunciones = document.getElementById('listaFunciones'); 
+    const precioLabel = document.getElementById('labelPrecio');
+    const inputFecha = document.getElementById('input-fecha');
+    const selectEmpleado = document.getElementById('empleado');
+
+
+
+     //================================================================================================ 
+//const selectEmpleado = document.getElementById('empleado'); 
     
+// cargarEmpleados(); 
+// // Cargar Empleados en el select 
+// async function cargarEmpleados() { 
+//     try { 
+//         const response = await fetch(`https://localhost:44321/Empleados`); 
+//         const empleados = await response.json();
+//         selectEmpleados .innerHTML = '';
+//         empleados.forEach(empleado => { 
+//             const option = document.createElement('option'); 
+//             option.value = empleado.idempleado; // Código como valor 
+//             option.textContent = empleado.nombre; // Nombre como texto 
+//             selectEmpleados.appendChild(option); 
+//         }); 
+//     } catch (error) { 
+//         console.error('Error al cargar empleados:', error); 
+//         alert('Ocurrió un error al cargar los empleados'); 
+//     } 
+// } 
  //================================================================================================ Cargar clientes en el select 
- const selectclientes = document.getElementById('listaClientes'); 
+//const selectclientes = document.getElementById('listaClientes'); 
     
     cargarClientes(); 
     // Cargar Clientes en el select 
@@ -30,7 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
         } 
     } 
 //================================================================================================
-const selectFormasPago = document.getElementById('listaFormasPago'); 
+// const selectFormasPago = document.getElementById('listaFormasPago'); 
     
     cargarformaPago(); 
     // Cargar formaPago en el select 
@@ -51,7 +81,7 @@ const selectFormasPago = document.getElementById('listaFormasPago');
         } 
     }
 //================================================================================================
-const selectPromociones = document.getElementById('listaPromociones'); 
+// const selectPromociones = document.getElementById('listaPromociones'); 
     
     cargarPromocion(); 
     // Cargar Promociones en el select 
@@ -64,6 +94,9 @@ const selectPromociones = document.getElementById('listaPromociones');
                 const option = document.createElement('option'); 
                 option.value = Promocion.idPromocion; // Código como valor 
                 option.textContent = Promocion.procentajeDescuento + '%'; // % 
+
+                option.dataset.descuento = Promocion.procentajeDescuento;
+
                 selectPromociones.appendChild(option); 
             }); 
         } catch (error) { 
@@ -72,8 +105,8 @@ const selectPromociones = document.getElementById('listaPromociones');
         } 
     }
 //================================================================================================
-const selectFunciones = document.getElementById('listaFunciones'); 
-const precioLabel = document.getElementById('labelPrecio');
+// const selectFunciones = document.getElementById('listaFunciones'); 
+// const precioLabel = document.getElementById('labelPrecio');
 
     cargarFuncion(); 
     // Cargar Funciones en el select 
@@ -109,29 +142,53 @@ const precioLabel = document.getElementById('labelPrecio');
 
 
 
-//================================================================================================
+//========================================================================
     // Agregar un listener al formulario 
     form.addEventListener('submit', async (event) => { 
         event.preventDefault(); 
         console.log('Formulario enviado'); // Esto te ayudará a saber si el evento se activa 
  
-        // Obtener los valores del formulario 
+
+
+        // =========OBTENER VALORES DEL FORMULARIO ========================================<<<<<<<<<
+
+        // const selectclientes = document.getElementById('listaClientes'); 
+        // const selectFormasPago = document.getElementById('listaFormasPago'); 
+        // const selectPromociones = document.getElementById('listaPromociones');
+        // const selectFunciones = document.getElementById('listaFunciones'); 
+        // const precioLabel = document.getElementById('labelPrecio');
+        // const inputFecha = document.getElementById('input-fecha');
+        //const selectEmpleado = document.getElementById('empleado');
+
+
+
         const fechaInput = new Date(inputFecha.value);  // Crea un objeto Date 
-        const fecha = fechaInput.toISOString(); // Convierte a formato ISO 8601 
+        const fecha = fechaInput.toISOString(); // Convierte a formato ISO 8601 <<OK>>
  
-        const modelo = inputModelo.value; 
-        const cantidad = parseInt(inputCantidad.value); 
- 
-        // Recorrer la tabla de clientes 
+        const bodyEmpleado = selectEmpleado.value; 
+        const bodyCliente =  selectclientes.value;
+        const bodyFormaDePago = selectFormasPago.value;
+        const bodyPromocion = selectPromociones.value;
+        const bodyFuncion = selectFunciones.value;
+        const bodyPrecio = precioLabel.value;
+    
+
+
+        // Recorrer la tabla de detalles 
         const detalles = obtenerDetallesTabla(); 
  
+
         // Construir el cuerpo del POST sin el 'nro' 
         const body = { 
-            fecha: fecha, 
-            listaDetalles: detalles, 
-            modelo: modelo, 
-            estado: 'Creada', 
-            cantidad: cantidad 
+            idTicket: 0,//No se
+            fecha: fecha,
+            idCliente: bodyCliente,
+            idEmpleado:bodyEmpleado,
+            idMedioPedido: 1, //defult
+            idPromocion: bodyPromocion,
+            idFormaPago: bodyFormaDePago,
+            total: 0,
+            estado: true 
         }; 
  
         try { 

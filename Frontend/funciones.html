@@ -3,17 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Funciones</title>
     <link rel="stylesheet" href="Styles/StyleIndex.css">
+    <link 
+href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css
+ " rel="stylesheet"> 
+    <script 
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.mi
+ n.js"></script> 
+    <!-- Iconos de Bootstrap --> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap/icons.css" rel="stylesheet"> 
+
+   
+    
 </head>
+
 <body>
+    
     <nav class="menu">
         
         <ul>
-            <li><a href="index.html" >INICIO</a></li>
-            <li><a href="Peliculas.html">PELICULAS</a></li>
-            <li><a href="funciones.html" class="actual">FUNCIONES <<</a></li>
+            <li><a href="index.html">INICIO</a></li>
+            <li><a href="Peliculas.html" >PELICULAS </a></li>  
+            <li><a href="Funciones.html">FUNCIONES <<</a></li>
+            <li><a href="agregarFunciones.html" class="actual">Agregar funcion<<</a></li>
             <li><a href="tickets.html">TICKETS</a></li>
+            
         </ul>
         
         <ul>
@@ -23,8 +38,31 @@
         </ul>
     </nav>
  
-    <div class="content">
-        <img src="Multimedia/funcione_cine_fondo.jpg" alt="Fondo de cine" class="fondo-cine">
+    <div id="content"> 
+        <h1 class="mb-4">Funciones</h1> 
+        <div class="container mt-4"> 
+            <table class="table table-striped table-hover"> 
+                <thead class="table-primary"> 
+                    <tr> 
+                        <th>Titulo</th> 
+                        <th>Nro de sala</th> 
+                        <th>Fecha desde</th> 
+                        <th>Fecha hasta</th> 
+                        <th>Horario</th>
+                        <th>Precio</th> 
+                        <th>Acciones</th>
+                    </tr> 
+                </thead> 
+                <tbody id="funciones-body"> 
+                    <!-- Aquí se llenarán dinámicamente las funciones --> 
+                    
+                </tbody> 
+                
+            </table> 
+            
+            
+        </div> 
     </div>
+    <script src="js/Funciones.js"></script> 
 </body>
 </html>
