@@ -5,27 +5,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio cine</title>
     <link rel="stylesheet" href="Styles/StyleIndex.css">
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const loginForm = document.getElementById("loginForm");
+            const errorMessage = document.getElementById("error-message");
+            const validUsername = "usuario";
+            const validPassword = "contraseña";
+            
+            // Verificar si el usuario ya ha iniciado sesión
+            const isLoggedIn = localStorage.getItem("isLoggedIn");
+            if (isLoggedIn === "true") {
+                // Mostrar la página principal si el usuario está autenticado
+                document.getElementById("main-content").style.display = "block";
+                document.getElementById("login-container").style.display = "none";
+            } else {
+                // Mostrar el formulario de inicio de sesión si el usuario no está autenticado
+                document.getElementById("main-content").style.display = "none";
+                document.getElementById("login-container").style.display = "block";
+            }
+
+            // Manejar el envío del formulario de inicio de sesión
+            loginForm.addEventListener("submit", function(event) {
+                event.preventDefault();
+                const username = document.getElementById("username").value;
+                const password = document.getElementById("password").value;
+
+                // Validar las credenciales
+                if (username === validUsername && password === validPassword) {
+                    localStorage.setItem("isLoggedIn", "true"); // Guardar el estado de sesión
+                    // Redirigir a la página principal (mostrar contenido)
+                    document.getElementById("main-content").style.display = "block";
+                    document.getElementById("login-container").style.display = "none";
+                } else {
+                    errorMessage.textContent = "Usuario o contraseña incorrectos";
+                }
+            });
+        });
+
+        // Función para cerrar sesión
+        function logout() {
+            localStorage.removeItem("isLoggedIn"); // Eliminar el estado de sesión
+            location.reload(); // Recargar la página para mostrar el formulario de inicio de sesión
+        }
+    </script>
 </head>
 <body>
-    <nav class="menu">
-        
-        <ul>
-            <li><a href="index.html" class="actual">INICIO << </a></li>
-            <li><a href="Peliculas.html">PELICULAS</a></li>
-            <li><a href="funciones.html">FUNCIONES</a></li>
-            <li><a href="tickets.html">TICKETS</a></li>
-        </ul>
-        
-        <ul>
-            <li><a href="nosotros.html">NOSOTROS</a></li>
-            <li><a href="#">CERRAR SESION</a></li>
-            <li><a href="#">SALIR</a></li>
-        </ul>
-    </nav>
- 
-    <div class="content">
-        <img src="Multimedia/index_cine_fondo.jpg" alt="Fondo de cine" class="fondo-cine">
+    <!-- Contenedor del formulario de inicio de sesión -->
+    <div id="login-container" style="display: none;">
+        <div class="login-container">
+            <h2>Iniciar Sesión</h2>
+            <form id="loginForm">
+                <label for="username">Usuario:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Ingresar</button>
+                <p id="error-message" style="color: red;"></p>
+            </form>
+        </div>
     </div>
+
+    <!-- Contenido principal del sitio -->
+    <div id="main-content" style="display: none;">
+        <nav class="menu">
+            <ul>
+                <li><a href="#" class="actual">INICIO << </a></li>
+                <li><a href="Peliculas.html">PELICULAS</a></li>
+                <li><a href="AgregarPelicula.html" class="actual">AGREGAR PELÍCULA <<</a></li>
+                <li><a href="funciones.html">FUNCIONES</a></li>
+                <li><a href="tickets.html">TICKETS</a></li>
+                <li><a href="#" onclick="logout()">CERRAR SESIÓN</a></li>
+                <li><a href="#">SALIR</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <img src="Multimedia/index_cine_fondo.jpg" alt="Fondo de cine" class="fondo-cine">
+        </div>
+    </div>
+    <script src="js/Login.js"></script> 
 </body>
 </html>
-
