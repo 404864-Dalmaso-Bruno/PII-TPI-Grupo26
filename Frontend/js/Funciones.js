@@ -28,17 +28,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Columna Nro sala 
             const salaTd = document.createElement('td'); 
-            salaTD.textContent = funcion.idSala; 
-            row.appendChild(salaTD);
+            salaTd.textContent = funcion.idSala; 
+            row.appendChild(salaTd);
 
             // Columna Fecha desde 
             const desdeTd = document.createElement('td'); 
             desdeTd.textContent = funcion.fechaDesde; 
             row.appendChild(desdeTd);
             // Columna fecha hasta 
-            const hastaTD = document.createElement('td'); 
-            hastaTD.textContent = funcion.fechaHasta; 
-            row.appendChild(hastaTD); 
+            const hastaTd = document.createElement('td'); 
+            hastaTd.textContent = funcion.fechaHasta; 
+            row.appendChild(hastaTd); 
 
             // Columna Horario 
             const horarioTd = document.createElement('td'); 
