@@ -3,6 +3,7 @@ using Microsoft.Data.SqlClient;
 using CineTPIProgII.Repositories.Utils;
 using System.Data;
 using CineTPIProgII.Repositories.Interfaces;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace CineTPIProgII.Repositories
 {
@@ -35,6 +36,31 @@ namespace CineTPIProgII.Repositories
 
         public bool BajaFuncion(int id)
         {
+            bool aux = true;
+            try
+            {
+                var funcionExistente = _context.Funciones.Find(id);
+                if (funcionExistente != null)
+                {
+                    funcionExistente.Estado = false;
+                    _context.SaveChanges();
+                    aux = true;
+                }
+                else
+                {
+                    aux = false;
+                }
+
+            }
+            catch (Exception ex)
+            {
+                aux = false;
+            }
+            return aux;
+        }
+
+        public bool ajaFuncion(int id)
+        {
             bool resultado = true;
             SqlTransaction t = null;
             conexion = DataHelper.GetInstance().GetConnection();
@@ -53,10 +79,11 @@ namespace CineTPIProgII.Repositories
             }
             catch
             {
+                resultado = false;
                 if (t != null)
                 {
                     t.Rollback();
-                    resultado = false;
+                    
                 }
             }
             finally

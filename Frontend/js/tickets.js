@@ -17,6 +17,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
+
+
+
+
      //================================================================================================ 
 //const selectEmpleado = document.getElementById('empleado'); 
     
@@ -24,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
 // // Cargar Empleados en el select 
 // async function cargarEmpleados() { 
 //     try { 
-//         const response = await fetch(`https://localhost:44321/Empleados`); 
+//         const response = await fetch(`https://localhost:7283/Empleados`); 
 //         const empleados = await response.json();
 //         selectEmpleados .innerHTML = '';
 //         empleados.forEach(empleado => { 

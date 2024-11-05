@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => { 
-    const API_URL = 'https://localhost:44321/api/Funciones/Funciones/'; 
+    const API_URL = 'https://localhost:44321/api/Funciones/Funciones'; 
     
     // Función para obtener las funciones 
     async function fetchfunciones() { 
@@ -36,9 +36,9 @@ document.addEventListener('DOMContentLoaded', () => {
             desdeTd.textContent = funcion.fechaDesde; 
             row.appendChild(desdeTd);
             // Columna fecha hasta 
-            const hastaTd = document.createElement('td'); 
-            hastaTd.textContent = funcion.fechaHasta; 
-            row.appendChild(hastaTd); 
+            const hastaTD = document.createElement('td'); 
+            hastaTD.textContent = funcion.fechaHasta; 
+            row.appendChild(hastaTD); 
 
             // Columna Horario 
             const horarioTd = document.createElement('td'); 
@@ -50,6 +50,11 @@ document.addEventListener('DOMContentLoaded', () => {
             precioTd.textContent = funcion.precio; 
             row.appendChild(precioTd); 
 
+            // Columna Estado 
+            const estadoTd = document.createElement('td'); 
+            estadoTd.textContent = funcion.estado; 
+            row.appendChild(estadoTd);
+
             // Columna Acciones (Eliminar) 
             const accionesTd = document.createElement('td'); 
             const eliminarBtn = document.createElement('button'); // Botón Eliminar 
@@ -57,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
             eliminarBtn.textContent = 'Eliminar'; 
             eliminarBtn.addEventListener('click', () => { 
                 if (confirm('¿Estás seguro que deseas dar de baja esta funcion?')) { 
-                    darDeBajafuncion(funcion.idfuncion);
+                    darDeBajafuncion(funcion.idFuncion);
                 } 
             }); 
             accionesTd.appendChild(eliminarBtn);
@@ -70,8 +75,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Función para dar de baja una película 
     async function darDeBajafuncion(id) { 
-        try { 
-            const response = await fetch(`${API_URL}/${id}`, { 
+        try { //api/Funciones/${id}
+            const response = await fetch(`https://localhost:44321/api/Funciones/${id}`, { 
                 method: 'DELETE', 
             }); 
 

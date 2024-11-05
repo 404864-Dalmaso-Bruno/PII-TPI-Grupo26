@@ -19,6 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function cargarPeliculas(peliculas) { 
         const tbody = document.getElementById('peliculas-body'); 
         tbody.innerHTML = ''; // Limpiar la tabla antes de agregar nuevas filas 
+        
         peliculas.forEach(pelicula => { 
             const row = document.createElement('tr'); 
             row.id = `fila-${pelicula.idPelicula}`; // Asignar ID único a la fila
@@ -49,9 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Columna Acciones (Eliminar) 
             const accionesTd = document.createElement('td'); 
-
-            // Botón Eliminar 
-            const eliminarBtn = document.createElement('button'); 
+            const eliminarBtn = document.createElement('button'); // Botón Eliminar 
             eliminarBtn.classList.add('btn', 'btn-danger', 'btn-sm'); 
             eliminarBtn.textContent = 'Eliminar'; 
             eliminarBtn.addEventListener('click', () => { 

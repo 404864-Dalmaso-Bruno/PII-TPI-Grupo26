@@ -35,8 +35,32 @@ namespace CineTPIProgII.Repositories
                 return false;
             }
         }
-
         public bool BajaPelicula(int id)
+        {
+            bool aux = true;
+            try
+            {
+                var peliculaExistente = _context.Peliculas.Find(id);
+                if (peliculaExistente != null)
+                {
+                    peliculaExistente.Estado = false;
+                    _context.SaveChanges();
+                    aux = true;
+                }
+                else
+                {
+                    aux = false;
+                }
+
+            }
+            catch (Exception ex)
+            {
+                aux = false;
+            }
+            return aux;
+        }
+
+        public bool ajaPelicula(int id)
         {
             bool resultado = true;
             SqlTransaction t = null;

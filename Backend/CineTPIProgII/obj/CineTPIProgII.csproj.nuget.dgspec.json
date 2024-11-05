@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Juli\\Documents\\Git\\PII-TPI-Grupo26\\Backend\\CineTPIProgII\\CineTPIProgII.csproj": {}
+    "C:\\Users\\jdalmaso_voyansi\\Documents\\Git\\PII-TPI-Grupo26\\Backend\\CineTPIProgII\\CineTPIProgII.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Juli\\Documents\\Git\\PII-TPI-Grupo26\\Backend\\CineTPIProgII\\CineTPIProgII.csproj": {
+    "C:\\Users\\jdalmaso_voyansi\\Documents\\Git\\PII-TPI-Grupo26\\Backend\\CineTPIProgII\\CineTPIProgII.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Juli\\Documents\\Git\\PII-TPI-Grupo26\\Backend\\CineTPIProgII\\CineTPIProgII.csproj",
+        "projectUniqueName": "C:\\Users\\jdalmaso_voyansi\\Documents\\Git\\PII-TPI-Grupo26\\Backend\\CineTPIProgII\\CineTPIProgII.csproj",
         "projectName": "CineTPIProgII",
-        "projectPath": "C:\\Users\\Juli\\Documents\\Git\\PII-TPI-Grupo26\\Backend\\CineTPIProgII\\CineTPIProgII.csproj",
-        "packagesPath": "C:\\Users\\Juli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Juli\\Documents\\Git\\PII-TPI-Grupo26\\Backend\\CineTPIProgII\\obj\\",
+        "projectPath": "C:\\Users\\jdalmaso_voyansi\\Documents\\Git\\PII-TPI-Grupo26\\Backend\\CineTPIProgII\\CineTPIProgII.csproj",
+        "packagesPath": "C:\\Users\\jdalmaso_voyansi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jdalmaso_voyansi\\Documents\\Git\\PII-TPI-Grupo26\\Backend\\CineTPIProgII\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Juli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jdalmaso_voyansi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -92,7 +92,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
