@@ -16,7 +16,7 @@ namespace CineTPIProgII.Controllers
         public TicketsController(ITickets repository)
         {
             _repository = repository;
-        }   
+        }
 
         [HttpGet("/Clientes")]
         public IActionResult GetClientes() => GetResponse(() => _repository.GetClientes());
