@@ -5,57 +5,47 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
-/*builder.Services.AddCors(options =>
-{
-    options.AddPolicy("AllowAll",
-        policy =>
-        {
-            policy.AllowAnyOrigin()
-                .AllowAnyMethod()
-                .AllowAnyHeader();
-        });
-});*/
-
-
+// Configuración de CORS
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowAll",
-        builder => builder
-            .AllowAnyOrigin()
-            .AllowAnyMethod()
-            .AllowAnyHeader());
+    options.AddPolicy("AllowAll", builder =>
+        builder.AllowAnyOrigin()        // Permite cualquier origen
+               .AllowAnyMethod()        // Permite cualquier método HTTP
+               .AllowAnyHeader());      // Permite cualquier encabezado
 });
 
-
-// Add services to the container.
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-
+// Configuración de la base de datos con SQL Server
 builder.Services.AddDbContext<CineProgContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("CineProgContext")));
 
-
-// Registra la interfaz y su implementación
+// Registra las interfaces y sus implementaciones
 builder.Services.AddScoped<IFunciones, FuncionesRepository>();
 builder.Services.AddScoped<IPeliculas, PeliculasRepository>();
 builder.Services.AddScoped<ITickets, TicketsRepository>();
 
-
-
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// Configura el pipeline de la solicitud HTTP.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
 
-app.UseCors("AllowAll");
 app.UseHttpsRedirection();
+
+// Aplica la política de CORS
+app.UseCors("AllowAll");
+
+// Autorización
 app.UseAuthorization();
+
+// Mapea los controladores
 app.MapControllers();
+
 app.Run();
 

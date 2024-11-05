@@ -459,10 +459,32 @@ create proc SP_NUEVA_PELICULA
 @id_genero int,
 @id_idioma int
 as
-begin
-insert into PELICULAS(titulo,duracion,sinopsis,id_clasificacion,id_genero,id_idioma, estado) 
-values (@titulo, @duracion, @sinopsis, @id_clasificacion, @id_genero, @id_idioma,1)
-end;
+BEGIN
+    -- Manejo de errores
+    BEGIN TRY
+        -- Verificar si el título ya existe
+        IF EXISTS (SELECT 1 FROM PELICULAS WHERE titulo = @titulo)
+        BEGIN
+            RAISERROR('El título de la película ya existe.', 16, 1);
+            RETURN;
+        END
+
+        -- Insertar la nueva película
+        INSERT INTO PELICULAS (titulo, duracion, sinopsis, id_clasificacion, id_genero, id_idioma, estado)
+        VALUES (@titulo, @duracion, @sinopsis, @id_clasificacion, @id_genero, @id_idioma, 1);
+    END TRY
+    BEGIN CATCH
+        -- Manejo de errores en caso de fallo
+        DECLARE @ErrorMessage NVARCHAR(400), @ErrorSeverity INT, @ErrorState INT;
+
+        SELECT 
+            @ErrorMessage = ERROR_MESSAGE(), 
+            @ErrorSeverity = ERROR_SEVERITY(), 
+            @ErrorState = ERROR_STATE();
+
+        RAISERROR(@ErrorMessage, @ErrorSeverity, @ErrorState);
+    END CATCH
+END;
 GO
 
 create proc SP_BAJA_PELICULA
