@@ -635,7 +635,7 @@ END;
 GO
 
 
-CREATE proc [dbo].[SP_INSERTAR_FUNCION]
+CREATE proc SP_INSERTAR_FUNCION
 @id_sala int,
 @id_pelicula int,
 @precio money,
@@ -671,7 +671,7 @@ where (id_ticket = @id or fecha = @fecha or nombre+' '+apellido = @cliente) and 
 END;
 GO
 
-CREATE proc [dbo].[SP_CONSULTAR_FUNCIONES_FILTROS]
+CREATE proc SP_CONSULTAR_FUNCIONES_FILTROS
 @id_funcion int,
 @desde datetime,
 @hasta datetime
@@ -716,20 +716,32 @@ END;
 GO
 
 
-CREATE proc [dbo].[SP_INSERTAR_TICKET]
-@nuevo_id_ticket int output,
-@fecha datetime,
-@id_cliente int,
-@id_medio_pedido int,
-@id_promocion int,
-@total money,
-@id_forma_pago int
-as
-begin
-insert into TICKETS(fecha,id_cliente, id_medio_pedido,id_promocion,total,estado, id_forma_pago) 
-values (@fecha,@id_cliente, @id_medio_pedido,@id_promocion,@total,1,@id_forma_pago);
-	set @nuevo_id_ticket = SCOPE_IDENTITY()
-end;
+CREATE proc SP_INSERTAR_TICKET
+    @nuevo_id_ticket INT OUTPUT,
+    @fecha DATETIME,
+    @id_cliente INT,
+    @id_medio_pedido INT,
+    @id_promocion INT,
+    @total MONEY,
+    @id_forma_pago INT
+AS
+BEGIN
+    BEGIN TRY
+        BEGIN TRANSACTION;
+
+        INSERT INTO TICKETS (fecha, id_cliente, id_medio_pedido, id_promocion, total, estado, id_forma_pago)
+        VALUES (@fecha, @id_cliente, @id_medio_pedido, @id_promocion, @total, 1, @id_forma_pago);
+
+        SET @nuevo_id_ticket = SCOPE_IDENTITY();
+
+        COMMIT TRANSACTION;
+    END TRY
+    BEGIN CATCH
+        ROLLBACK TRANSACTION;
+        THROW;
+    END CATCH
+END;
+
 GO
 
 

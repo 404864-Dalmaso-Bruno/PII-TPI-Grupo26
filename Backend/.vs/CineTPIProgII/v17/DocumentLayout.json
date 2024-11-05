@@ -3,6 +3,30 @@
   "WorkspaceRootPath": "C:\\Users\\Juli\\Documents\\Git\\PII-TPI-Grupo26\\Backend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|c:\\users\\juli\\documents\\git\\pii-tpi-grupo26\\backend\\cinetpiprogii\\controllers\\ticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|solutionrelative:cinetpiprogii\\controllers\\ticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|c:\\users\\juli\\documents\\git\\pii-tpi-grupo26\\backend\\cinetpiprogii\\repositories\\ticketsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|solutionrelative:cinetpiprogii\\repositories\\ticketsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|c:\\users\\juli\\documents\\git\\pii-tpi-grupo26\\backend\\cinetpiprogii\\repositories\\interfaces\\itickets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|solutionrelative:cinetpiprogii\\repositories\\interfaces\\itickets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|c:\\users\\juli\\documents\\git\\pii-tpi-grupo26\\backend\\cinetpiprogii\\repositories\\peliculasrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|solutionrelative:cinetpiprogii\\repositories\\peliculasrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|c:\\users\\juli\\documents\\git\\pii-tpi-grupo26\\backend\\cinetpiprogii\\controllers\\peliculascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|solutionrelative:cinetpiprogii\\controllers\\peliculascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|c:\\users\\juli\\documents\\git\\pii-tpi-grupo26\\backend\\cinetpiprogii\\repositories\\interfaces\\ipeliculas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|solutionrelative:cinetpiprogii\\repositories\\interfaces\\ipeliculas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|c:\\users\\juli\\documents\\git\\pii-tpi-grupo26\\backend\\cinetpiprogii\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|solutionrelative:cinetpiprogii\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,18 +39,6 @@
       "RelativeMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|solutionrelative:cinetpiprogii\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|c:\\users\\juli\\documents\\git\\pii-tpi-grupo26\\backend\\cinetpiprogii\\controllers\\peliculascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|solutionrelative:cinetpiprogii\\controllers\\peliculascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|c:\\users\\juli\\documents\\git\\pii-tpi-grupo26\\backend\\cinetpiprogii\\repositories\\interfaces\\ipeliculas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|solutionrelative:cinetpiprogii\\repositories\\interfaces\\ipeliculas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|c:\\users\\juli\\documents\\git\\pii-tpi-grupo26\\backend\\cinetpiprogii\\repositories\\ticketsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|solutionrelative:cinetpiprogii\\repositories\\ticketsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|c:\\users\\juli\\documents\\git\\pii-tpi-grupo26\\backend\\cinetpiprogii\\repositories\\funcionesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|solutionrelative:cinetpiprogii\\repositories\\funcionesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -37,18 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|c:\\users\\juli\\documents\\git\\pii-tpi-grupo26\\backend\\cinetpiprogii\\repositories\\interfaces\\ifunciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|solutionrelative:cinetpiprogii\\repositories\\interfaces\\ifunciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|c:\\users\\juli\\documents\\git\\pii-tpi-grupo26\\backend\\cinetpiprogii\\repositories\\interfaces\\itickets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|solutionrelative:cinetpiprogii\\repositories\\interfaces\\itickets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|c:\\users\\juli\\documents\\git\\pii-tpi-grupo26\\backend\\cinetpiprogii\\controllers\\ticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|solutionrelative:cinetpiprogii\\controllers\\ticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|c:\\users\\juli\\documents\\git\\pii-tpi-grupo26\\backend\\cinetpiprogii\\repositories\\peliculasrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|solutionrelative:cinetpiprogii\\repositories\\peliculasrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|c:\\users\\juli\\documents\\git\\pii-tpi-grupo26\\backend\\cinetpiprogii\\models\\pelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -70,23 +70,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "FuncionesRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Juli\\Documents\\Git\\PII-TPI-Grupo26\\Backend\\CineTPIProgII\\Repositories\\FuncionesRepository.cs",
-              "RelativeDocumentMoniker": "CineTPIProgII\\Repositories\\FuncionesRepository.cs",
-              "ToolTip": "C:\\Users\\Juli\\Documents\\Git\\PII-TPI-Grupo26\\Backend\\CineTPIProgII\\Repositories\\FuncionesRepository.cs",
-              "RelativeToolTip": "CineTPIProgII\\Repositories\\FuncionesRepository.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAA1wDIAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T21:12:57.033Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Juli\\Documents\\Git\\PII-TPI-Grupo26\\Backend\\CineTPIProgII\\Program.cs",
               "RelativeDocumentMoniker": "CineTPIProgII\\Program.cs",
@@ -94,12 +82,11 @@
               "RelativeToolTip": "CineTPIProgII\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T21:12:57.042Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-02T21:12:57.042Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "DataHelper.cs",
               "DocumentMoniker": "C:\\Users\\Juli\\Documents\\Git\\PII-TPI-Grupo26\\Backend\\CineTPIProgII\\Repositories\\Util\\DataHelper.cs",
               "RelativeDocumentMoniker": "CineTPIProgII\\Repositories\\Util\\DataHelper.cs",
@@ -111,7 +98,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "FuncionesController.cs",
               "DocumentMoniker": "C:\\Users\\Juli\\Documents\\Git\\PII-TPI-Grupo26\\Backend\\CineTPIProgII\\Controllers\\FuncionesController.cs",
               "RelativeDocumentMoniker": "CineTPIProgII\\Controllers\\FuncionesController.cs",
@@ -123,7 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "IFunciones.cs",
               "DocumentMoniker": "C:\\Users\\Juli\\Documents\\Git\\PII-TPI-Grupo26\\Backend\\CineTPIProgII\\Repositories\\Interfaces\\IFunciones.cs",
               "RelativeDocumentMoniker": "CineTPIProgII\\Repositories\\Interfaces\\IFunciones.cs",
@@ -135,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "IPeliculas.cs",
               "DocumentMoniker": "C:\\Users\\Juli\\Documents\\Git\\PII-TPI-Grupo26\\Backend\\CineTPIProgII\\Repositories\\Interfaces\\IPeliculas.cs",
               "RelativeDocumentMoniker": "CineTPIProgII\\Repositories\\Interfaces\\IPeliculas.cs",
@@ -147,7 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "PeliculasController.cs",
               "DocumentMoniker": "C:\\Users\\Juli\\Documents\\Git\\PII-TPI-Grupo26\\Backend\\CineTPIProgII\\Controllers\\PeliculasController.cs",
               "RelativeDocumentMoniker": "CineTPIProgII\\Controllers\\PeliculasController.cs",
@@ -159,31 +146,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "TicketsRepository.cs",
               "DocumentMoniker": "C:\\Users\\Juli\\Documents\\Git\\PII-TPI-Grupo26\\Backend\\CineTPIProgII\\Repositories\\TicketsRepository.cs",
               "RelativeDocumentMoniker": "CineTPIProgII\\Repositories\\TicketsRepository.cs",
               "ToolTip": "C:\\Users\\Juli\\Documents\\Git\\PII-TPI-Grupo26\\Backend\\CineTPIProgII\\Repositories\\TicketsRepository.cs",
               "RelativeToolTip": "CineTPIProgII\\Repositories\\TicketsRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA4wF8AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T21:12:57.05Z"
+              "WhenOpened": "2024-11-02T21:12:57.05Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 0,
               "Title": "TicketsController.cs",
               "DocumentMoniker": "C:\\Users\\Juli\\Documents\\Git\\PII-TPI-Grupo26\\Backend\\CineTPIProgII\\Controllers\\TicketsController.cs",
               "RelativeDocumentMoniker": "CineTPIProgII\\Controllers\\TicketsController.cs",
               "ToolTip": "C:\\Users\\Juli\\Documents\\Git\\PII-TPI-Grupo26\\Backend\\CineTPIProgII\\Controllers\\TicketsController.cs",
               "RelativeToolTip": "CineTPIProgII\\Controllers\\TicketsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAwwC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T21:12:56.868Z"
+              "WhenOpened": "2024-11-02T21:12:56.868Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Juli\\Documents\\Git\\PII-TPI-Grupo26\\Backend\\CineTPIProgII\\appsettings.json",
               "RelativeDocumentMoniker": "CineTPIProgII\\appsettings.json",
@@ -195,7 +184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
               "Title": "ITickets.cs",
               "DocumentMoniker": "C:\\Users\\Juli\\Documents\\Git\\PII-TPI-Grupo26\\Backend\\CineTPIProgII\\Repositories\\Interfaces\\ITickets.cs",
               "RelativeDocumentMoniker": "CineTPIProgII\\Repositories\\Interfaces\\ITickets.cs",
@@ -207,15 +196,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 3,
               "Title": "PeliculasRepository.cs",
               "DocumentMoniker": "C:\\Users\\Juli\\Documents\\Git\\PII-TPI-Grupo26\\Backend\\CineTPIProgII\\Repositories\\PeliculasRepository.cs",
               "RelativeDocumentMoniker": "CineTPIProgII\\Repositories\\PeliculasRepository.cs",
               "ToolTip": "C:\\Users\\Juli\\Documents\\Git\\PII-TPI-Grupo26\\Backend\\CineTPIProgII\\Repositories\\PeliculasRepository.cs",
               "RelativeToolTip": "CineTPIProgII\\Repositories\\PeliculasRepository.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAcwCMAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-02T21:12:56.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FuncionesRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Juli\\Documents\\Git\\PII-TPI-Grupo26\\Backend\\CineTPIProgII\\Repositories\\FuncionesRepository.cs",
+              "RelativeDocumentMoniker": "CineTPIProgII\\Repositories\\FuncionesRepository.cs",
+              "ToolTip": "C:\\Users\\Juli\\Documents\\Git\\PII-TPI-Grupo26\\Backend\\CineTPIProgII\\Repositories\\FuncionesRepository.cs",
+              "RelativeToolTip": "CineTPIProgII\\Repositories\\FuncionesRepository.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA1wDIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T21:12:57.033Z"
             },
             {
               "$type": "Document",

@@ -44,6 +44,12 @@ namespace CineTPIProgII.Controllers
                 return BadRequest("El ticket no puede ser nulo.");
             }
 
+            // Validación de campos importantes antes de intentar insertarlos
+            if (nuevo.IdCliente <= 0 || nuevo.IdEmpleado <= 0 || nuevo.Total <= 0)
+            {
+                return BadRequest("Los datos del ticket son inválidos.");
+            }
+
             var resultado = _repository.NuevoTicket(nuevo);
             if (resultado)
             {
