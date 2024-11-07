@@ -6,6 +6,7 @@ namespace CineTPIProgII.Repositories.Interfaces
     {
         bool NuevoTicket(Ticket nuevo);
         bool BajaTicket(int id);
+        List<Ticket> GetTickets();
         List<Cliente> GetClientes();
         List<MediosPedido> GetMedioDeVenta();
         List<FormasPago> GetFormaDePagos();

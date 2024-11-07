@@ -60,41 +60,6 @@ namespace CineTPIProgII.Repositories
             return aux;
         }
 
-        public bool ajaPelicula(int id)
-        {
-            bool resultado = true;
-            SqlTransaction t = null;
-            conexion = DataHelper.GetInstance().GetConnection();
-
-            try
-            {
-                conexion.Open();
-                t = conexion.BeginTransaction();
-
-                SqlCommand comando = new SqlCommand("SP_BAJA_PELICULA", conexion, t);
-                comando.CommandType = CommandType.StoredProcedure;
-                comando.Parameters.AddWithValue("@id_pelicula", id);
-
-                comando.ExecuteNonQuery();
-                t.Commit();
-            }
-            catch
-            {
-                if (t != null)
-                {
-                    t.Rollback();
-                    resultado = false;
-                }
-            }
-            finally
-            {
-                if (conexion != null && conexion.State == ConnectionState.Open)
-                {
-                    conexion.Close();
-                }
-            }
-            return resultado;
-        }
 
         public List<Clasificacione> GetClasificaciones()
         {

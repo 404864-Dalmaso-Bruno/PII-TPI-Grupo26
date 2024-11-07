@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v7.0": {
       "CineTPIProgII/1.0.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.OpenApi": "7.0.13",
+          "Microsoft.AspNetCore.OpenApi": "7.0.20",
           "Microsoft.EntityFrameworkCore": "7.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.0",
@@ -60,14 +60,14 @@
           }
         }
       },
-      "Microsoft.AspNetCore.OpenApi/7.0.13": {
+      "Microsoft.AspNetCore.OpenApi/7.0.20": {
         "dependencies": {
           "Microsoft.OpenApi": "1.4.3"
         },
         "runtime": {
           "lib/net7.0/Microsoft.AspNetCore.OpenApi.dll": {
-            "assemblyVersion": "7.0.13.0",
-            "fileVersion": "7.0.1323.52007"
+            "assemblyVersion": "7.0.20.0",
+            "fileVersion": "7.0.2024.26907"
           }
         }
       },
@@ -702,12 +702,12 @@
       "path": "humanizer.core/2.14.1",
       "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.OpenApi/7.0.13": {
+    "Microsoft.AspNetCore.OpenApi/7.0.20": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-CHNUWJD3mbfn1Lra1b0EeoyRHDv7udHqVvle/BLZgXSfjRcau8YSWRqmP6W9zLeZ/rxSN64kqrgOOvfkHJzgYg==",
-      "path": "microsoft.aspnetcore.openapi/7.0.13",
-      "hashPath": "microsoft.aspnetcore.openapi.7.0.13.nupkg.sha512"
+      "sha512": "sha512-coCi7bh16o4B2qKbD7fng+4m1vu51L9MzTW+9NZp3NvLgAurDMT1kOg2uuycCN4BtEz3EYXlfJMJ2hK6EU7ISQ==",
+      "path": "microsoft.aspnetcore.openapi/7.0.20",
+      "hashPath": "microsoft.aspnetcore.openapi.7.0.20.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
       "type": "package",

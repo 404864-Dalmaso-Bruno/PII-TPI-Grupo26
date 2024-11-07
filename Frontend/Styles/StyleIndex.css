@@ -1,3 +1,5 @@
+
+
 /* Estilos generales */
 * {
     margin: 0;
@@ -44,6 +46,8 @@ body {
     font-size: 18px;
 }
 
+
+
 .menu ul li a:hover {
     text-decoration: none;
 }
@@ -53,10 +57,10 @@ body {
 }
 
 /* Estilo para el contenedor de la imagen */
-#content {
-    flex: 1; /* Ocupa el resto del espacio a la derecha del menú */
+/* #content {
+    flex: 1; 
     padding: 20px; 
-}
+} */
 
 .fondo-cine {
     width: 100%;

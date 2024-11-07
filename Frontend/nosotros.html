@@ -3,29 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nosotros</title>
-    <link rel="stylesheet" href="Styles/StyleIndex.css">
+    <title>Página Principal</title>
+    <!-- <link rel="stylesheet" href="Styles/style_secundario"> -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        body {
+            font-family: "Poppins", sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('/Multimedia/Fondo.jpg') no-repeat;
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+        }
+        .menu {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 15px;
+            text-align: center;
+        }
+        .menu ul {
+            list-style-type: none;
+        }
+        .menu ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        .menu ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+            text-align: center;
+        }
+        .content img {
+            max-width: 100%;
+            height: auto;
+        }
+        .integrantes {
+            margin-top: 30px;
+            font-size: 1.2rem;
+        }
+        .integrantes ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .integrantes li {
+            margin-bottom: 10px;
+        }
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Verificar si el usuario ya ha iniciado sesión
+            const isLoggedIn = localStorage.getItem("isLoggedIn");
+            if (isLoggedIn !== "true") {
+                // Redirigir a la página de inicio de sesión si no está autenticado
+                window.location.href = "login.html"; // Cambia esto según tu estructura de archivos
+            }
+        });
+
+        // Función para cerrar sesión
+        function logout() {
+            localStorage.removeItem("isLoggedIn"); // Eliminar el estado de sesión
+            window.location.href = "login.html"; // Redirigir al login
+        }
+    </script>
 </head>
 <body>
     <nav class="menu">
-        
         <ul>
-            <li><a href="index.html" >INICIO</a></li>
+            <li><a href="#" class="actual">INICIO</a></li>
             <li><a href="Peliculas.html">PELICULAS</a></li>
             <li><a href="funciones.html">FUNCIONES</a></li>
             <li><a href="tickets.html">TICKETS</a></li>
-            
-        </ul>
-        
-        <ul>
-            <li><a class="actual" href="nosotros.html">NOSOTROS <<</a></li>
-            <li><a href="#">CERRAR SESION</a></li>
-            <li><a href="#">SALIR</a></li>
+            <li><a href="#" onclick="logout()">CERRAR SESIÓN</a></li>
         </ul>
     </nav>
- 
     <div class="content">
-        <img src="Multimedia/nosotros_cine_fondo.jpg" alt="Fondo de cine" class="fondo-cine">
+        <img src="https://i.pinimg.com/originals/17/d5/40/17d54085c8cb6b3f2f0da5bd6ce6a451.gif" alt="">
+        
+        <!-- Listado de integrantes -->
+        <div class="integrantes">
+            <h2>Integrantes</h2>
+            <ul>
+                <li>405608 - Raies Pedro Karim</li>
+                <li>405144 - Crespo Facundo Agustin</li>
+                <li>405094 - Bertolin Gabriel Ignacio</li>
+                <li>114235 - Rodriguez Luciano Abel</li>
+                <li>404864 - Dalmaso Olivera Bruno Julian</li>
+            </ul>
+        </div>
+        
     </div>
 </body>
 </html>

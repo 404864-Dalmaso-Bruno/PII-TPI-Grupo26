@@ -1,8 +1,7 @@
   
 document.addEventListener('DOMContentLoaded', () => { 
-    const elBoton = document.getElementById("elBoton"); // Asegúrate de que el botón esté definido
-    elBoton.innerHTML = 'Carga';
-    const API_URL = 'https://localhost:44321/api/Peliculas'; 
+    
+    const API_URL = 'https://localhost:7283/api/Peliculas'; 
 
     // Función para obtener las películas 
     async function fetchPeliculas() { 
@@ -31,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Columna Genero 
             const generoTd = document.createElement('td'); 
-            generoTd.textContent = pelicula.idGenero; 
+            generoTd.textContent = buscarGenero(pelicula.idGenero);
             row.appendChild(generoTd);
 
             // Columna Clasificacion 
@@ -50,21 +49,49 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Columna Acciones (Eliminar) 
             const accionesTd = document.createElement('td'); 
-            const eliminarBtn = document.createElement('button'); // Botón Eliminar 
+            const eliminarBtn = document.createElement('button'); // Botón eliminarBtn 
             eliminarBtn.classList.add('btn', 'btn-danger', 'btn-sm'); 
             eliminarBtn.textContent = 'Eliminar'; 
-            eliminarBtn.addEventListener('click', () => { 
-                if (confirm('¿Estás seguro que deseas dar de baja este componente?')) { 
-                    darDeBajaPelicula(pelicula.idPelicula);
+            if(pelicula.estado){
+                eliminarBtn.addEventListener('click', () => { 
+                    if (confirm('¿Estás seguro que deseas dar de baja este componente?')) { 
+                        darDeBajaPelicula(pelicula.idPelicula);
+                    } 
+                });   
+            }else{eliminarBtn.disabled = true;}  
+             
+            const editarBtn = document.createElement('button'); // Botón editar 
+            editarBtn.classList.add('btn', 'btn', 'btn-sm'); 
+            editarBtn.textContent = 'Editar'; 
+            editarBtn.addEventListener('click', () => { 
+                if (confirm('Ir a editar?')) { 
+                    //LOGICA PARA EDITAR <<------------------------[!!!!]
+                    window.location.href = `EditarPelicula.html?idPelicula=${pelicula.idPelicula}`;//redirecciona a EditarPelicua.html con idPelicula por parametro
                 } 
-            }); 
-            accionesTd.appendChild(eliminarBtn);
+            });
+
+            accionesTd.appendChild(editarBtn);   //El orden en que se agregar modifica cual se ve primero
+            accionesTd.appendChild(eliminarBtn);    
+            
             row.appendChild(accionesTd); 
+
+            
 
             // Agregar la fila a la tabla 
             tbody.appendChild(row);
         }); 
     } 
+
+      
+    //[]
+    // const params = new URLSearchParams(window.location.search);
+    // const param1 = params.get('param1'); // 'valor1'
+    // const param2 = params.get('param2'); // 'valor2'
+
+
+
+
+
 
     // Función para dar de baja una película 
     async function darDeBajaPelicula(id) { 
@@ -84,6 +111,31 @@ document.addEventListener('DOMContentLoaded', () => {
             alert('Ocurrió un error al intentar dar de baja la película'); 
         } 
     } 
+
+
+     
+    // Cargar Generos en el select   <<------------------------[!!!!]
+    async function buscarGenero(id) { 
+        try { 
+            let elGenero = [];
+            const response = await fetch(`https://localhost:7283/Generos`); 
+            const Generos = await response.json();
+            Generos.forEach(genero => { 
+                if(genero.idGenero == id)
+                    return genero.genero1;
+            }); 
+            
+
+            return elGenero[id-1];
+            
+
+        } catch (error) { 
+            console.error('Error al buscar los generos:', error); 
+            alert('Ocurrió un error al buscar los generos'); 
+        } 
+    }
+
+
 
     // Llamar a la función para cargar las películas cuando la página cargue 
     fetchPeliculas(); 

@@ -1,249 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tickets</title>
-    <link rel="stylesheet" href="Styles/StyleIndex.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"> 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script> 
-    <!-- Iconos de Bootstrap --> 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap/icons.css" rel="stylesheet"> 
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tickets</title>
 
-</head>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+        <style>
+            body {
+                font-family: "Poppins", sans-serif;
+                margin: 0;
+                padding: 0;
+                background: url('/Multimedia/Fondo.jpg') no-repeat;
+                background-size: cover;
+                background-position: center;
+                color: #fff;
+            }
+            a {
+                color: #ffffff;
+                
+                font-size: 18px;
+            }
+            .menu {
+                background: rgba(0, 0, 0, 0.7);
+                padding: 15px;
+                text-align: center;
+            }
+            .menu ul {
+                list-style-type: none;
+            }
+            .menu ul li {
+                display: inline;
+                margin: 0 15px;
+            }
+            .menu ul li a {
+                color: #fff;
+                text-decoration: none;
+                font-weight: bold;
+            }
+            .content {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 80vh;
+                text-align: center;
+            }
+            #content {
+                flex: 1; /* Ocupa el resto del espacio a la derecha del menú */
+                padding: 20px; 
+                display : flex;
+                justify-content: center;
+            }
+            .content img {
+                max-width: 100%;
+                height: auto;
+            }
+        </style>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                // Verificar si el usuario ya ha iniciado sesión
+                const isLoggedIn = localStorage.getItem("isLoggedIn");
+                if (isLoggedIn !== "true") {
+                    // Redirigir a la página de inicio de sesión si no está autenticado
+                    window.location.href = "login.html"; // Cambia esto según tu estructura de archivos
+                }
+            });
+    
+            // Función para cerrar sesión
+            function logout() {
+                localStorage.removeItem("isLoggedIn"); // Eliminar el estado de sesión
+                window.location.href = "login.html"; // Redirigir al login
+            }
+        </script>
+    </head>
+
 <body>
+    
     <nav class="menu">
         
         <ul>
-            <li><a href="index.html" >INICIO </a></li>
-            <li><a href="Peliculas.html">PELICULAS</a></li>
+            <li><a href="index.html">INICIO</a></li>
+            <li><a href="Peliculas.html" class="actual">PELICULAS</a></li>
             <li><a href="funciones.html">FUNCIONES</a></li>
-            <li><a href="tickets.html" class="actual">TICKETS <<</a></li>
+            <li><a href="tickets.html">TICKETS</a></li>
         </ul>
         
-        <ul>
-            <li><a href="nosotros.html">NOSOTROS</a></li>
-            <li><a href="#">CERRAR SESION</a></li>
-            <li><a href="#">SALIR</a></li>
-        </ul>
     </nav>
  
-    <div id="content">
+    <div id="content"> 
         <div class="container mt-4">
-        <form id="form-orden">
-        <!-- Primera fila: Formulario básico -->
-
-
-
-            <div class="row mb-3">
-                <div class="col-12">
-                    <h3>Crear ticket</h3>
-                    <!-- fila ========================================================================== fila -->
-                    <div class="row">
-                        <div class="col-4">
-                            <label for="orderDate" class="formlabel">Fecha id="input-fecha"</label>
-                            <input type="text" class="form-control" id="input-fecha" readonly>
-                        </div>
-                        <div class="col-4">
-
-                        </div>
-                        <div class="col-4">
-                            <label for="orderDate" class="formlabel">Empleado id="empleado"</label>
-                            <input type="text" class="form-control" id="empleado" placeholder="Admin" readonly>
-                        </div>
-                        <!-- <div class="col-md-4">
-                            <label for="component" class="formlabel">Empleado id="empleado"</label>
-                            <select class="form-select" id="empleado">
-                                <option value="1">cliente 1</option>
-                                <option value="2">cliente 2</option>
-                                <option value="3">cliente 3"</option>
-                                <option value="4">cliente 5"</option>
-                            </select>
-                        </div> -->
-                    </div>
-                     <!-- fila ========================================================================== fila -->
-                    <div class="row g-3">
-                        <div class="col-md-4">
-                            <label for="component" class="formlabel">Cliente id="listaClientes"</label>
-                            <select class="form-select" id="listaClientes">
-                                <!-- <option value="1">cliente 1</option>
-                                <option value="2">cliente 2</option>
-                                <option value="3">cliente 3"</option>
-                                <option value="4">cliente 5"</option> -->
-                            </select>
-                        </div>
-                        <div class="col-md-4">
-                            <label for="component" class="formlabel">Forma pago id="listaFormasPago"</label>
-                            <select class="form-select" id="listaFormasPago">
-                                <!-- <option value="1">cliente 1</option>
-                                <option value="2">cliente 2</option>
-                                <option value="3">cliente 3"</option>
-                                <option value="4">cliente 5"</option> -->
-                            </select>
-                        </div>
-                        <div class="col-md-4">
-                            <label for="component" class="formlabel">Promociones id="listaPromociones"</label>
-                            <select class="form-select" id="listaPromociones">
-                                <!-- <option value="1">cliente 1</option>
-                                <option value="2">cliente 2</option>
-                                <option value="3">cliente 3"</option>
-                                <option value="4">cliente 5"</option> -->
-                            </select>
-                        </div>
-                        
-                    <div class="mb-3">
-                    <div class="row g-3"><!-- fila ========================================================================== fila -->
-                        <div class="col-md-6">
-                            <label for="component" class="formlabel">funcion id="listaFunciones"</label>
-                            <select class="form-select" id="listaFunciones">
-                                <!-- <option value="1">cliente 1</option>
-                                <option value="2">cliente 2</option>
-                                <option value="3">cliente 3"</option>
-                                <option value="4">cliente 5"</option> -->
-                            </select>
-                        </div>
-                        <div class="col-md-2">
-                            <label for="orderDate" class="formlabel"  >Precio butaca id="labelPrecio"</label>
-                            <input type="text" class="form-control" id="labelPrecio" readonly >
-                        </div>
-                    </div><!-- fila ========================================================================== fila -->
-                </div>
-            </div>
-            <hr>
-            <!-- Segunda fila: Formulario de componentes -->
-             <!-- fila ========================================================================== fila -->
-            <div class="row mb-3">
-                <div class="col-12">
-                <h4>Listado de butacas</h4>
-                    <!-- fila ========================================================================== fila -->
-                    <div class="row g-3">
-                        <div class="col-md-4">
-                            <label for="butacas" class="formlabel">id="butacas"</label>
-                            <select class="form-select" id="butacas">
-                                <option value="1">Butaca 1</option>
-                                <option value="2">Butaca2</option>
-                                <option value="3">Butaca3</option>
-                                <option value="4">Butaca5</option>
-                            </select>
-                        </div>
-                        
-                        <div class="col-md-2 d-flex align-items-end">
-                            <button type="button" class="btn btn-primary" id="addDetailBtn">
-                                <i class="fas fa-plus"></i> Agregar a la lista 
-                            </button>id="addDetailBtn"
-                        </div>
-                    <!-- Tabla de detalles ==================================================================TABLA DETALLES-->
-                            <div class="col-md-">
-                                <table class="table table-bordered" id="detailsTable">id="detailsTable"
-                                    <thead> <!-- cabecera de la tabla-->
-                                        <tr>
-                                            <th>Nro butaca </th>
-                                            <th>Funcion</th>
-                                            <th>Precio </th>
-                                            <th>Acciones </th>
-                                        </tr>
-                                    </thead>
-                                    <!-- BODY DE LA TABLA------------------------------------------- -->
-                                    <tbody>
-                                        <!-- Filas generadas dinámicamente --> 
-                                    </tbody>
-
-                                </table>
-                            </div>
-                    <!-- fila ========================================================================== fila -->
-                        <div class="row">
-                            <div class="col-2">
-                                <label for="orderDate" class="formlabel"  >Precio total id="idPrecioTotal"</label>
-                                <input type="number" class="form-control" id="idPrecioTotal" readonly >
-                            </div>
-                            <div class="col-8 text-end">
-                                <button type="submit" class="btn btnsuccess"><!-- Botón de Guardar -->
-                                <i class="fas fa-save"></i> Guardar
-                                </button>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </form>
+            <h1 class="mb-4">Tickets</h1> 
+            <h2> <a href="AgregarTicket.html">Agregar ticket [+]</a></h2>
+            <div class="container mt-4"> 
+                <table class="table table-striped table-hover"> 
+                    <thead class="table-primary"> 
+                        <tr> 
+                            <th>Ticket ||</th> 
+                            <th>Cliente ||</th> 
+                            <th>Empleado ||</th>  
+                            <th>Promocion ||</th>
+                            <th>Forma Pago ||</th>
+                            <th>Monto ||</th>
+                            <th>Estado ||</th>
+                            <th>Acciones</th> 
+                        </tr> 
+                    </thead> 
+                    <tbody id="tickets-body"> 
+                        <!-- Aquí se llenarán dinámicamente las peliculas --> 
+                    </tbody> 
+                </table> 
+            </div> 
         </div>
-    </div>
-    
-    <!-- ==============================================[ SCRIPT LISTA DE BUTACAS ]================================================ -->
-<script>
-
-    document.getElementById('input-fecha').value = new Date().toLocaleDateString('es-ES');
-
-    const addedButacas = new Set(); // Conjunto para almacenar butacas agregadas
-    
-    // Agregar funcionalidad para "Agregar al detalle"
-    document.getElementById('addDetailBtn').addEventListener('click', function () {
-        const laButaca = document.getElementById('butacas'); // Butaca select
-        const butacaId = laButaca.value;
-        const butacaName = laButaca.options[laButaca.selectedIndex].text;
-        const precioTotal = document.getElementById('idPrecioTotal');
-        const butacaPrecio = document.getElementById('labelPrecio').value; // Precio de la butaca
-        const idFuncion = document.getElementById('listaFunciones').value;
         
-
-
-        if (butacaPrecio > 0) {
-            // Verificar si la butaca ya ha sido agregada
-            if (addedButacas.has(butacaId)) {
-                alert("Esta butaca ya ha sido agregada.");
-                return; // Salir si la butaca ya está en la tabla
-            }
-
-            const tableBody = document.querySelector('#detailsTable');
-            const newRow = document.createElement('tr');
-
-            const butacaTD = document.createElement('td'); 
-                butacaTD.textContent = butacaId; 
-                newRow.appendChild(butacaTD);
-
-            const idFuncTD = document.createElement('td'); 
-                idFuncTD.textContent = idFuncion; 
-                newRow.appendChild(idFuncTD);
-
-            const butacaPrecioTD = document.createElement('td'); 
-                    butacaPrecioTD.textContent = butacaPrecio; 
-                    newRow.appendChild(butacaPrecioTD);
-
-            
-            const accionesTd = document.createElement('td'); 
-            const eliminarBtn = document.createElement('button'); // Botón Eliminar 
-            eliminarBtn.textContent = 'Eliminar'; 
-            eliminarBtn.addEventListener('click', () => { 
-                //addedButacas.delete(butacaId); // Eliminar la butaca del conjunto
-                }); 
-            accionesTd.appendChild(eliminarBtn);
-            newRow.appendChild(accionesTd);  
-
-            tableBody.appendChild(newRow);
-            addedButacas.add(butacaId);// Agregar la butaca al conjunto para no permitir duplicados
-            
-            const selectElement = document.getElementById('listaFunciones');
-            selectElement.disabled = true;
-
-
-
-
-        } else {
-            alert("Por favor, seleccione una función.");
-        }
-    });
-
-    </script>
-    <!-- ==============================================[##########################]================================================ -->
-    <script>
-    document.getElementById('toggle-btn').addEventListener('click',
-    function () {
-    const sidebar = document.getElementById('sidebar');
-    const icon = document.getElementById('toggle-icon');
-    sidebar.classList.toggle('collapsed');
-    });
-    </script>
-    <script src="js/tickets.js"></script>
+    </div>
+    <script src="js/Tickets.js"></script> 
 </body>
 </html>

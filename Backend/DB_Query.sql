@@ -775,11 +775,11 @@ INSERT INTO PROMOCIONES VALUES ('2023-12-01', '2023-12-31', 25);
 INSERT INTO PROMOCIONES VALUES ('2024-01-01', '2024-01-15', 30);
 
 INSERT INTO CLIENTES (nombre, apellido, fecha_nac, email) VALUES 
-('Maria', 'Gonz lez', '1990-05-15', 'maria@example.com'),
- ('Juan', 'P rez', '1985-12-10', 'juan@example.com'),
+('Maria', 'Gonzalez', '1990-05-15', 'maria@example.com'),
+ ('Juan', 'Perez', '1985-12-10', 'juan@example.com'),
  ('Luis', 'Torres', '1995-03-22', 'luis@example.com'),
- ('Ana', 'Rodr guez', '1998-07-01', 'ana@example.com'),
- ('Diego', 'L pez', '1980-09-30', 'diego@example.com'),
+ ('Ana', 'Rodriguez', '1998-07-01', 'ana@example.com'),
+ ('Diego', 'Lopez', '1980-09-30', 'diego@example.com'),
 ('Juan', 'Gomez', '1990-05-15', 'juan.gomez@example.com'),
 ('Ana', 'Lopez', '1985-08-23', 'ana.lopez@example.com'),
 ('Carlos', 'Rodriguez', '1992-02-10', 'carlos.rodriguez@example.com'),
@@ -807,14 +807,14 @@ INSERT INTO CLIENTES (nombre, apellido, fecha_nac, email) VALUES
 
 INSERT INTO TIPOS_DOC (tipo) VALUES ('DNI');
 INSERT INTO TIPOS_DOC (tipo) VALUES ('Pasaporte');
-INSERT INTO TIPOS_DOC (tipo) VALUES ('C dula de Ciudadan a');
+INSERT INTO TIPOS_DOC (tipo) VALUES ('Cedula de Ciudadania');
 INSERT INTO TIPOS_DOC (tipo) VALUES ('Licencia de Conducir');
 INSERT INTO TIPOS_DOC (tipo) VALUES ('Tarjeta de Residencia');
 
 INSERT INTO BARRIOS (barrio) VALUES ('Centro');
-INSERT INTO BARRIOS (barrio) VALUES ('Nueva C rdoba');
-INSERT INTO BARRIOS (barrio) VALUES ('G emes');
-INSERT INTO BARRIOS (barrio) VALUES ('Alta C rdoba');
+INSERT INTO BARRIOS (barrio) VALUES ('Nueva Cordoba');
+INSERT INTO BARRIOS (barrio) VALUES ('Guemes');
+INSERT INTO BARRIOS (barrio) VALUES ('Alta Cordoba');
 INSERT INTO BARRIOS (barrio) VALUES ('Chateu');
 
 INSERT INTO CARGOS (descripcion) VALUES ('Gerente');
@@ -824,45 +824,45 @@ INSERT INTO CARGOS (descripcion) VALUES ('User');
 INSERT INTO CARGOS (descripcion) VALUES ('Proyeccionista');
 --
 INSERT INTO EMPLEADOS (nombre, apellido, id_tipo_doc, documento, fecha_nac, id_barrio, id_cargo, fecha_alta, telefono, email) 
-VALUES ('Mar a', 'Mart nez', 1, 12345678, '1980-04-20', 1, 1, '2021-02-01', '555-1234', 'maria@gmail.com');
+VALUES ('Maria', 'Martinez', 1, 12345678, '1980-04-20', 1, 1, '2021-02-01', '555-1234', 'maria@gmail.com');
 INSERT INTO EMPLEADOS (nombre, apellido, id_tipo_doc, documento, fecha_nac, id_barrio, id_cargo, fecha_alta, telefono, email) 
-VALUES ('Mart n', 'Polliotto', 2, 87654321, '1982-04-17', 2, 2, '2021-06-03', '555-5678', 'martin@polliotto.com');
+VALUES ('Martin', 'Polliotto', 2, 87654321, '1982-04-17', 2, 2, '2021-06-03', '555-5678', 'martin@polliotto.com');
 INSERT INTO EMPLEADOS (nombre, apellido, id_tipo_doc, documento, fecha_nac, id_barrio, id_cargo, fecha_alta, telefono, email) 
 VALUES ('David', 'Alonso', 3, 11223344, '1990-09-02', 3, 3, '2021-08-10', '555-9876', 'fargan@gmail.com');
 INSERT INTO EMPLEADOS (nombre, apellido, id_tipo_doc, documento, fecha_nac, id_barrio, id_cargo, fecha_alta, telefono, email) 
-VALUES ('Guillermo', 'D az', 4, 99887766, '1985-03-11', 4, 4, '2021-08-05', '555-4321', 'willy@gmail.com');
+VALUES ('Guillermo', 'Diaz', 4, 99887766, '1985-03-11', 4, 4, '2021-08-05', '555-4321', 'willy@gmail.com');
 INSERT INTO EMPLEADOS (nombre, apellido, id_tipo_doc, documento, fecha_nac, id_barrio, id_cargo, fecha_alta, telefono, email) 
-VALUES ('Sof a', 'Hern ndez', 5, 66554433, '1994-07-25', 5, 5, '2021-08-02', '555-8765', 'sofia@hotmail.com');
+VALUES ('Sofia', 'Hernandez', 5, 66554433, '1994-07-25', 5, 5, '2021-08-02', '555-8765', 'sofia@hotmail.com');
 --
 INSERT INTO MEDIOS_PEDIDO (descripcion) VALUES ('Web');
-INSERT INTO MEDIOS_PEDIDO (descripcion) VALUES ('Tel fono');
+INSERT INTO MEDIOS_PEDIDO (descripcion) VALUES ('Telefono');
 INSERT INTO MEDIOS_PEDIDO (descripcion) VALUES ('Taquilla');
-INSERT INTO MEDIOS_PEDIDO (descripcion) VALUES ('App M vil');
+INSERT INTO MEDIOS_PEDIDO (descripcion) VALUES ('App Movil');
 INSERT INTO MEDIOS_PEDIDO (descripcion) VALUES ('Kiosco');
 
 -- Inserts para la tabla FORMAS_PAGO
 INSERT INTO FORMAS_PAGO (descripcion, porcentaje_recargo) VALUES ('Efectivo', 0);
-INSERT INTO FORMAS_PAGO (descripcion, porcentaje_recargo) VALUES ('Tarjeta de Cr dito', 5);
-INSERT INTO FORMAS_PAGO (descripcion, porcentaje_recargo) VALUES ('Tarjeta de D bito', 3);
+INSERT INTO FORMAS_PAGO (descripcion, porcentaje_recargo) VALUES ('Tarjeta de Credito', 5);
+INSERT INTO FORMAS_PAGO (descripcion, porcentaje_recargo) VALUES ('Tarjeta de Debito', 3);
 INSERT INTO FORMAS_PAGO (descripcion, porcentaje_recargo) VALUES ('PayPal', 7);
 INSERT INTO FORMAS_PAGO (descripcion, porcentaje_recargo) VALUES ('Transferencia Bancaria', 2);
 
 -- Inserts para la tabla CLASIFICACIONES
-INSERT INTO CLASIFICACIONES (clasificacion) VALUES ('Apta para todos los p blicos');
+INSERT INTO CLASIFICACIONES (clasificacion) VALUES ('Apta para todos los publicos');
 INSERT INTO CLASIFICACIONES (clasificacion) VALUES ('+7');
 INSERT INTO CLASIFICACIONES (clasificacion) VALUES ('+12');
 INSERT INTO CLASIFICACIONES (clasificacion) VALUES ('+16');
 INSERT INTO CLASIFICACIONES (clasificacion) VALUES ('+18');
 
 -- Inserts para la tabla GENEROS
-INSERT INTO GENEROS (genero) VALUES ('Acci n');
+INSERT INTO GENEROS (genero) VALUES ('Accion');
 INSERT INTO GENEROS (genero) VALUES ('Comedia');
 INSERT INTO GENEROS (genero) VALUES ('Drama');
-INSERT INTO GENEROS (genero) VALUES ('Ciencia Ficci n');
+INSERT INTO GENEROS (genero) VALUES ('Ciencia Ficcion');
 INSERT INTO GENEROS (genero) VALUES ('Romance');
 
 insert into IDIOMAS
-values ('Ingles'), ('Espa ol');
+values ('Ingles'), ('Español');
 
 
 -- Inserts para la tabla TIPOS_SALAS
@@ -908,43 +908,43 @@ VALUES ('10:00'),
 ('20:30');
 
 INSERT INTO PELICULAS (titulo, duracion, sinopsis, id_clasificacion, id_genero, id_idioma, estado)
-VALUES ('Aventuras Explosivas', 120, 'Una pel cula llena de acci n y emoci n.', 1, 1, 1, 1),
-	   ('Misi n Imposible', 130, 'Un agente se embarca en misiones imposibles para salvar el mundo.', 2, 1, 2,1),
-       ('Misi n Imposible: Protocolo Fantasma', 135, 'Ethan Hunt enfrenta una nueva misi n imposible.', 2, 1, 2, 1),
-       ('El  ltimo Guerrero', 110, 'Un guerrero lucha contra fuerzas oscuras para salvar el reino.', 3, 1, 1, 1),
-       ('Intr pidos', 105, 'Un grupo de h roes se une para salvar el mundo.', 4, 1, 2, 1),
-       ('El Renacer del Drag n', 125, 'Un maestro de las artes marciales busca venganza.', 5, 1, 1, 1);
+VALUES ('Aventuras Explosivas', 120, 'Una pel cula llena de accion y emocion.', 1, 1, 1, 1),
+	   ('Mision Imposible', 130, 'Un agente se embarca en misiones imposibles para salvar el mundo.', 2, 1, 2,1),
+       ('Mision Imposible: Protocolo Fantasma', 135, 'Ethan Hunt enfrenta una nueva mision imposible.', 2, 1, 2, 1),
+       ('El Ultimo Guerrero', 110, 'Un guerrero lucha contra fuerzas oscuras para salvar el reino.', 3, 1, 1, 1),
+       ('Intrepidos', 105, 'Un grupo de heroes se une para salvar el mundo.', 4, 1, 2, 1),
+       ('El Renacer del Dragon', 125, 'Un maestro de las artes marciales busca venganza.', 5, 1, 1, 1);
 
 INSERT INTO PELICULAS (titulo, duracion, sinopsis, id_clasificacion, id_genero, id_idioma, estado)
-VALUES ('Risas y M s Risas', 95, 'Una comedia que te har  re r a carcajadas.', 1, 2, 2, 1),
-       ('Locuras en la Ciudad', 110, 'Un grupo de amigos vive situaciones c micas en la gran ciudad.', 2, 2, 1, 1),
-       ('La Boda del A o', 120, 'Preparativos para una boda que se convierten en un caos divertido.', 3, 2, 2, 1),
-       (' Qu  Desastre!', 100, 'Un d a en la vida de un personaje desafortunado.', 4, 2, 1, 1),
-       ('Comedia Rom ntica', 115, 'Amor y risas se entrelazan en esta comedia rom ntica.', 5, 2, 2, 1),
+VALUES ('Risas y Mas Risas', 95, 'Una comedia que te hara reir a carcajadas.', 1, 2, 2, 1),
+       ('Locuras en la Ciudad', 110, 'Un grupo de amigos vive situaciones comicas en la gran ciudad.', 2, 2, 1, 1),
+       ('La Boda del Año', 120, 'Preparativos para una boda que se convierten en un caos divertido.', 3, 2, 2, 1),
+       (' Que Desastre!', 100, 'Un dia en la vida de un personaje desafortunado.', 4, 2, 1, 1),
+       ('Comedia Romantica', 115, 'Amor y risas se entrelazan en esta comedia romantica.', 5, 2, 2, 1),
 	   ('Locuras de Verano', 100, 'Un grupo de amigos vive locuras durante las vacaciones de verano.', 2, 2,1,1)
 
 INSERT INTO PELICULAS (titulo, duracion, sinopsis, id_clasificacion, id_genero, id_idioma, estado)
-VALUES ('El Peso del Pasado', 130, 'Un drama profundo sobre la redenci n.', 1, 3, 1, 1),
-       ('Secretos Familiares', 115, 'Una familia enfrenta sus secretos m s oscuros.', 2, 3, 2, 1),
+VALUES ('El Peso del Pasado', 130, 'Un drama profundo sobre la redencion.', 1, 3, 1, 1),
+       ('Secretos Familiares', 115, 'Una familia enfrenta sus secretos mas oscuros.', 2, 3, 2, 1),
        ('Vidas Entrelazadas', 140, 'Historias de diferentes personas que se cruzan en el destino.', 3, 3, 1, 1),
-       ('El  ltimo Adi s', 105, 'Una emotiva historia de despedida y aceptaci n.', 4, 3, 2, 1),
-       ('M s All  de la Esperanza', 125, 'Una mirada esperanzadora en medio de la adversidad.', 5, 3, 1, 1),
-	   ('Sue o Americano', 150, 'La historia de un hombre que persigue el sue o americano.', 3, 3, 1,1)
+       ('El Ultimo Adios', 105, 'Una emotiva historia de despedida y aceptacion.', 4, 3, 2, 1),
+       ('Mas Alla de la Esperanza', 125, 'Una mirada esperanzadora en medio de la adversidad.', 5, 3, 1, 1),
+	   ('Sueño Americano', 150, 'La historia de un hombre que persigue el sueño americano.', 3, 3, 1,1)
 
 INSERT INTO PELICULAS (titulo, duracion, sinopsis, id_clasificacion, id_genero, id_idioma, estado)
-VALUES ('El Futuro Desconocido', 110, 'Explorando mundos futuros y tecnolog as asombrosas.', 1, 4, 2, 1),
-       ('Invasi n Extraterrestre', 125, 'La humanidad lucha contra una invasi n alien gena.', 2, 4, 1, 1),
-       ('Viaje a las Estrellas', 140, 'Exploraci n intergal ctica en busca de nuevos horizontes.', 3, 4, 2, 1),
+VALUES ('El Futuro Desconocido', 110, 'Explorando mundos futuros y tecnologias asombrosas.', 1, 4, 2, 1),
+       ('Invasion Extraterrestre', 125, 'La humanidad lucha contra una invasion alienigena.', 2, 4, 1, 1),
+       ('Viaje a las Estrellas', 140, 'Exploracion intergalactica en busca de nuevos horizontes.', 3, 4, 2, 1),
        ('Realidad Virtual', 105, 'Aventuras en un mundo virtual lleno de sorpresas.', 4, 4, 1, 1),
-       ('M quinas Conscientes', 120, 'Inteligencia artificial y su impacto en la sociedad.', 5, 4, 2, 1),
-	   ('La Guerra de las Galaxias', 180, 'Una saga  pica de ciencia ficci n.', 4, 4,2,1)
+       ('Maquinas Conscientes', 120, 'Inteligencia artificial y su impacto en la sociedad.', 5, 4, 2, 1),
+	   ('La Guerra de las Galaxias', 180, 'Una saga epica de ciencia ficcion.', 4, 4,2,1)
 
 INSERT INTO PELICULAS (titulo, duracion, sinopsis, id_clasificacion, id_genero, id_idioma, estado)
 VALUES ('Amor Eterno', 115, 'Una historia de amor que trasciende el tiempo.', 1, 5, 1, 1),
-       ('Enamorados en Par s', 130, 'Romance florece en las calles de la Ciudad del Amor.', 2, 5, 2, 1),
+       ('Enamorados en Paris', 130, 'Romance florece en las calles de la Ciudad del Amor.', 2, 5, 2, 1),
        ('Cita a Ciegas', 100, 'Dos almas perdidas se encuentran en una cita inesperada.', 3, 5, 1, 1),
        ('Historia de Amor Prohibido', 145, 'Amor que desaf a barreras sociales y culturales.', 4, 5, 2, 1),
-       ('El  ltimo Baile', 110, 'Una historia de amor durante una noche m gica.', 5, 5, 1, 1);
+       ('El Ultimo Baile', 110, 'Una historia de amor durante una noche magica.', 5, 5, 1, 1);
 
 
 
@@ -986,22 +986,20 @@ INSERT INTO FUNCIONES (id_sala, id_horario, id_formato, estado, id_pelicula, pre
 INSERT INTO FUNCIONES (id_sala, id_horario, id_formato, estado, id_pelicula, precio, fecha_desde, fecha_hasta) VALUES (1, 8, 4, 1, 24, 250, '2023-01-01', '2023-12-31');
 INSERT INTO FUNCIONES (id_sala, id_horario, id_formato, estado, id_pelicula, precio, fecha_desde, fecha_hasta) VALUES (4, 1, 1, 1, 28, 170, '2023-01-01', '2023-12-31');
 
-
-
 --2021
 -- Enero
-INSERT INTO TICKETS (fecha, id_empleado, id_cliente, id_medio_pedido, id_promocion, total) 
+INSERT INTO TICKETS (fecha, id_empleado, id_cliente, id_medio_pedido, id_promocion, total,estado) 
 VALUES 
-  ('2021-01-01', 1, 1, 1, 1, 300),
-  ('2021-01-02', 1, 1, 1, 1, 250),
-  ('2021-01-05', 1, 1, 1, 1, 400),
-  ('2021-01-08', 1, 1, 1, 1, 320),
-  ('2021-01-12', 1, 1, 1, 1, 480),
-  ('2021-01-15', 1, 1, 1, 1, 350),
-  ('2021-01-24', 1, 1, 1, 1, 290),
-  ('2021-01-25', 1, 1, 1, 1, 500),
-  ('2021-01-27', 1, 1, 1, 1, 200),
-  ('2021-01-30', 1, 1, 1, 1, 120);
+  ('2021-01-01', 1, 1, 1, 1, 300, 'true'),
+  ('2021-01-02', 1, 1, 1, 1, 250, 'true'),
+  ('2021-01-05', 1, 1, 1, 1, 400, 'true'),
+  ('2021-01-08', 1, 1, 1, 1, 320, 'true'),
+  ('2021-01-12', 1, 1, 1, 1, 480, 'true'),
+  ('2021-01-15', 1, 1, 1, 1, 350, 'true'),
+  ('2021-01-24', 1, 1, 1, 1, 290, 'true'),
+  ('2021-01-25', 1, 1, 1, 1, 500, 'true'),
+  ('2021-01-27', 1, 1, 1, 1, 200, 'true'),
+  ('2021-01-30', 1, 1, 1, 1, 120, 'true');
 
 
 INSERT INTO DETALLES_TICKET (id_detalle, id_ticket, id_funcion, id_butaca, precio_venta)
@@ -1011,16 +1009,16 @@ VALUES
 (13, 9, 9, 7, 200.00), (14, 10, 10, 8, 120.00);
 
 -- Febrero
-INSERT INTO TICKETS (fecha, id_empleado, id_cliente, id_medio_pedido, id_promocion, total) 
+INSERT INTO TICKETS (fecha, id_empleado, id_cliente, id_medio_pedido, id_promocion, total, estado) 
 VALUES 
-  ('2021-02-02', 1, 1, 1, 1, 250),
-  ('2021-02-05', 1, 1, 1, 1, 120),
-  ('2021-02-08', 1, 1, 1, 1, 200),
-  ('2021-02-12', 1, 1, 1, 1, 270),
-  ('2021-02-15', 1, 1, 1, 1, 180),
-  ('2021-02-20', 1, 1, 1, 1, 150),
-  ('2021-02-24', 1, 1, 1, 1, 290),
-  ('2021-02-28', 1, 1, 1, 1, 200);
+  ('2021-02-02', 1, 1, 1, 1, 250, 'true'),
+  ('2021-02-05', 1, 1, 1, 1, 120, 'true'),
+  ('2021-02-08', 1, 1, 1, 1, 200, 'true'),
+  ('2021-02-12', 1, 1, 1, 1, 270, 'true'),
+  ('2021-02-15', 1, 1, 1, 1, 180, 'true'),
+  ('2021-02-20', 1, 1, 1, 1, 150, 'true'),
+  ('2021-02-24', 1, 1, 1, 1, 290, 'true'),
+  ('2021-02-28', 1, 1, 1, 1, 200, 'true');
 
 INSERT INTO DETALLES_TICKET (id_detalle, id_ticket, id_funcion, id_butaca, precio_venta)
 VALUES
@@ -1035,22 +1033,22 @@ VALUES
 (23, 18, 6, 2, 200.00);
 
 -- Marzo
-INSERT INTO TICKETS (fecha, id_empleado, id_cliente, id_medio_pedido, id_promocion, total) 
+INSERT INTO TICKETS (fecha, id_empleado, id_cliente, id_medio_pedido, id_promocion, total, estado) 
 VALUES 
-  ('2021-03-02', 4, 5, 3, 2, 320),
-  ('2021-03-05', 2, 12, 4, 1, 450),
-  ('2021-03-08', 5, 7, 2, 3, 380),
-  ('2021-03-12', 1, 18, 1, 5, 420),
-  ('2021-03-15', 3, 15, 5, 4, 300),
-  ('2021-03-20', 4, 6, 3, 2, 280),
-  ('2021-03-24', 5, 8, 2, 1, 490),
-  ('2021-03-28', 2, 11, 4, 3, 350),
-  ('2021-03-15', 3, 20, 1, 5, 420),
-  ('2021-03-18', 1, 14, 5, 4, 250),
-  ('2021-03-22', 3, 9, 3, 2, 480),
-  ('2021-03-26', 4, 19, 2, 1, 410),
-  ('2021-03-29', 5, 13, 4, 3, 300),
-  ('2021-03-30', 2, 10, 1, 5, 470);
+  ('2021-03-02', 4, 5, 3, 2, 320,'true'),
+  ('2021-03-05', 2, 12, 4, 1, 450,'true'),
+  ('2021-03-08', 5, 7, 2, 3, 380,'true'),
+  ('2021-03-12', 1, 18, 1, 5, 420,'true'),
+  ('2021-03-15', 3, 15, 5, 4, 300,'true'),
+  ('2021-03-20', 4, 6, 3, 2, 280,'true'),
+  ('2021-03-24', 5, 8, 2, 1, 490,'true'),
+  ('2021-03-28', 2, 11, 4, 3, 350,'true'),
+  ('2021-03-15', 3, 20, 1, 5, 420,'true'),
+  ('2021-03-18', 1, 14, 5, 4, 250,'true'),
+  ('2021-03-22', 3, 9, 3, 2, 480,'true'),
+  ('2021-03-26', 4, 19, 2, 1, 410,'true'),
+  ('2021-03-29', 5, 13, 4, 3, 300,'true'),
+  ('2021-03-30', 2, 10, 1, 5, 470,'true');
 
 
 INSERT INTO DETALLES_TICKET (id_detalle, id_ticket, id_funcion, id_butaca, precio_venta)
@@ -1075,12 +1073,12 @@ VALUES
 (41, 32, 6, 2, 200.00);
 
 -- Abril
-INSERT INTO TICKETS (fecha, id_empleado, id_cliente, id_medio_pedido, id_promocion, total) 
-VALUES ('2021-04-03', 5, 14, 2, 4, 420),
-('2021-04-10', 2, 7, 1, 3, 310),
-('2021-04-15', 4, 18, 3, 2, 480),
-('2021-04-22', 1, 10, 5, 1, 250),
-('2021-04-28', 3, 5, 4, 5, 370);
+INSERT INTO TICKETS (fecha, id_empleado, id_cliente, id_medio_pedido, id_promocion, total, estado) 
+VALUES ('2021-04-03', 5, 14, 2, 4, 420,'true'),
+('2021-04-10', 2, 7, 1, 3, 310,'true'),
+('2021-04-15', 4, 18, 3, 2, 480,'true'),
+('2021-04-22', 1, 10, 5, 1, 250,'true'),
+('2021-04-28', 3, 5, 4, 5, 370,'true');
 
 INSERT INTO DETALLES_TICKET (id_detalle, id_ticket, id_funcion, id_butaca, precio_venta)
 VALUES

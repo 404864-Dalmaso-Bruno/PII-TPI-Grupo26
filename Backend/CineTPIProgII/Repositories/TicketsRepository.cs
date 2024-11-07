@@ -18,32 +18,31 @@ namespace CineTPIProgII.Repositories
 
         public bool BajaTicket(int id)
         {
-            using var conexion = DataHelper.GetInstance().GetConnection();
-            SqlTransaction transaction = null;
-
+            bool aux = true;
             try
             {
-                conexion.Open();
-                transaction = conexion.BeginTransaction();
-
-                using var comando = new SqlCommand("SP_BAJA_TICKET", conexion, transaction)
+                var ticketExistente = _context.Tickets.Find(id);
+                if (ticketExistente != null)
                 {
-                    CommandType = CommandType.StoredProcedure
-                };
-                comando.Parameters.AddWithValue("@id_ticket", id);
-                comando.ExecuteNonQuery();
+                    ticketExistente.Estado = false;
+                    _context.SaveChanges();
+                    aux = true;
+                }
+                else
+                {
+                    aux = false;
+                }
 
-                transaction.Commit();
-                return true;
             }
             catch (Exception ex)
             {
-                transaction?.Rollback();
-                Console.WriteLine($"Error al dar de baja el ticket: {ex.Message}");
-                return false;
+                aux = false;
             }
+            return aux;
         }
 
+        
+        public List<Ticket> GetTickets() => _context.Tickets.ToList();
         public List<Butaca> GetButacas() => _context.Butacas.ToList();
         public List<Cliente> GetClientes() => _context.Clientes.ToList();
         public List<FormasPago> GetFormaDePagos() => _context.FormasPagos.ToList();

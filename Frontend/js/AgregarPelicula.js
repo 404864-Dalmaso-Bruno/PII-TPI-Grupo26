@@ -24,9 +24,9 @@ document.addEventListener('DOMContentLoaded', function() {
             estado: true,
             funciones: []  // Si no tienes funciones aún, puedes dejarlo vacío
         };
-
+        
         // Hacemos la solicitud POST a la API
-        fetch('https://localhost:44321/api/Peliculas', {
+        fetch('https://localhost:7283/api/Peliculas', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

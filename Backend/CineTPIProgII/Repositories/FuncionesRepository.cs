@@ -59,42 +59,6 @@ namespace CineTPIProgII.Repositories
             return aux;
         }
 
-        public bool ajaFuncion(int id)
-        {
-            bool resultado = true;
-            SqlTransaction t = null;
-            conexion = DataHelper.GetInstance().GetConnection();
-
-            try
-            {
-                conexion.Open();
-                t = conexion.BeginTransaction();
-
-                SqlCommand comando = new SqlCommand("SP_BAJA_FUNCION", conexion, t);
-                comando.CommandType = CommandType.StoredProcedure;
-                comando.Parameters.AddWithValue("@id_funcion", id);
-
-                comando.ExecuteNonQuery();
-                t.Commit();
-            }
-            catch
-            {
-                resultado = false;
-                if (t != null)
-                {
-                    t.Rollback();
-                    
-                }
-            }
-            finally
-            {
-                if (conexion != null && conexion.State == ConnectionState.Open)
-                {
-                    conexion.Close();
-                }
-            }
-            return resultado;
-        }
 
         public List<Funcione> GetFunciones()
         {
