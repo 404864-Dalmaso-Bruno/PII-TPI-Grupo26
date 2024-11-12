@@ -41,7 +41,9 @@ namespace CineTPIProgII.Repositories
             return aux;
         }
 
-        
+        public List<DetallesTicket> GetDetalles() => _context.DetallesTickets.ToList();
+        public List<Empleado> GetEmpleados() => _context.Empleados.ToList();
+        public List<Reservada> GetReservados() =>_context.Reservadas.ToList();
         public List<Ticket> GetTickets() => _context.Tickets.ToList();
         public List<Butaca> GetButacas() => _context.Butacas.ToList();
         public List<Cliente> GetClientes() => _context.Clientes.ToList();
@@ -49,6 +51,8 @@ namespace CineTPIProgII.Repositories
         public List<Funcione> GetFunciones() => _context.Funciones.ToList();
         public List<MediosPedido> GetMedioDeVenta() => _context.MediosPedidos.ToList();
         public List<Promocione> GetPromociones() => _context.Promociones.ToList();
+
+        
 
         public bool NuevoTicket(Ticket nuevo)
         {
@@ -58,14 +62,20 @@ namespace CineTPIProgII.Repositories
             try
             {
                 // Parámetro de salida para el nuevo ID de ticket
-                var nuevoIdTicketParam = new SqlParameter("@nuevo_id_ticket", SqlDbType.Int) { Direction = ParameterDirection.Output };
+                var nuevoIdTicketParam = new SqlParameter
+                {
+                    ParameterName = "@nuevo_id_ticket",
+                    SqlDbType = System.Data.SqlDbType.Int,
+                    Direction = System.Data.ParameterDirection.Output
+                };
 
                 // Llamada al procedimiento almacenado
                 _context.Database.ExecuteSqlRaw(
-                    "EXEC [dbo].[SP_INSERTAR_TICKET] @nuevo_id_ticket OUT, @fecha, @id_cliente, @id_medio_pedido, @id_promocion, @total, @id_forma_pago",
+                    "EXEC [dbo].[SP_INSERTAR_TICKET] @nuevo_id_ticket OUT, @fecha, @id_cliente,@id_empleado, @id_medio_pedido, @id_promocion, @total, @id_forma_pago",
                     nuevoIdTicketParam,
                     new SqlParameter("@fecha", nuevo.Fecha),
                     new SqlParameter("@id_cliente", nuevo.IdCliente),
+                    new SqlParameter("@id_empleado",nuevo.IdEmpleado),
                     new SqlParameter("@id_medio_pedido", nuevo.IdMedioPedido),
                     new SqlParameter("@id_promocion", nuevo.IdPromocion),
                     new SqlParameter("@total", nuevo.Total),
@@ -79,6 +89,7 @@ namespace CineTPIProgII.Repositories
                 foreach (var detalle in nuevo.DetallesTicket)
                 {
                     detalle.IdTicket = nuevo.IdTicket;
+                     
                     _context.DetallesTickets.Add(detalle);
                 }
 
@@ -93,6 +104,39 @@ namespace CineTPIProgII.Repositories
                 Console.WriteLine($"Error al insertar el ticket: {ex.Message}");
                 return false;
             }
+        }
+
+        public bool NuevoDetalle(DetallesTicket detalle)
+        {
+            try
+            {
+                _context.DetallesTickets.Add(detalle);
+                _context.SaveChanges();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+         
+
+        }
+
+        public bool NuevaReserva(Reservada reserva)
+        {
+            if (reserva == null) { return false; }
+
+            try
+            {
+                _context.Reservadas.Add(reserva);
+                _context.SaveChanges();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+            
         }
     }
 }

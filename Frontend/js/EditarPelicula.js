@@ -17,6 +17,8 @@ document.addEventListener('DOMContentLoaded', function() {
             } 
         } 
 
+        
+
         function cargarPelicula(pelicula){
 
             const idPelicula = document.getElementById('idPelicula');
@@ -95,7 +97,7 @@ document.addEventListener('DOMContentLoaded', function() {
             window.location.href = `Peliculas.html`;
         })
         .catch(error => {
-            console.error('Error al agregar la película:', error);
+            console.error('Error al editar la película:', error);
             document.getElementById('responseMessage').textContent = 'Hubo un error al agregar la película.';
         });
     });

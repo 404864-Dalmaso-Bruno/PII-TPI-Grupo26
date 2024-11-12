@@ -34,6 +34,6 @@ public partial class Ticket
     public virtual MediosPedido IdMedioPedidoNavigation { get; set; }
 
     public virtual Promocione IdPromocionNavigation { get; set; }
-
-    public virtual ICollection<DetallesTicket> DetallesTicket { get; set; } = new List<DetallesTicket>();
+    public List<DetallesTicket> DetallesTicket { get; set; }
+    
 }

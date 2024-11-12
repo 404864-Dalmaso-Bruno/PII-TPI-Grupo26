@@ -8,11 +8,16 @@ namespace CineTPIProgII.Models;
 public partial class DetallesTicket
 {
     public int IdDetalle { get; set; }
+
     public int IdTicket { get; set; }
+
     public int? IdFuncion { get; set; }
+
     public int? IdButaca { get; set; }
+
     public decimal? PrecioVenta { get; set; }
 
     public virtual Butaca IdButacaNavigation { get; set; }
+
     public virtual Funcione IdFuncionNavigation { get; set; }
 }

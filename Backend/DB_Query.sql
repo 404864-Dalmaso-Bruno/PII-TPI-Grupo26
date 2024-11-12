@@ -717,9 +717,10 @@ GO
 
 
 CREATE proc SP_INSERTAR_TICKET
-    @nuevo_id_ticket INT OUTPUT,
+	@nuevo_id_ticket INT OUTPUT,
     @fecha DATETIME,
     @id_cliente INT,
+    @id_empleado INT,
     @id_medio_pedido INT,
     @id_promocion INT,
     @total MONEY,
@@ -729,8 +730,8 @@ BEGIN
     BEGIN TRY
         BEGIN TRANSACTION;
 
-        INSERT INTO TICKETS (fecha, id_cliente, id_medio_pedido, id_promocion, total, estado, id_forma_pago)
-        VALUES (@fecha, @id_cliente, @id_medio_pedido, @id_promocion, @total, 1, @id_forma_pago);
+        INSERT INTO TICKETS (fecha, id_cliente,id_empleado, id_medio_pedido, id_promocion, total, estado, id_forma_pago)
+        VALUES (@fecha, @id_cliente,@id_empleado, @id_medio_pedido, @id_promocion, @total, 1, @id_forma_pago);
 
         SET @nuevo_id_ticket = SCOPE_IDENTITY();
 

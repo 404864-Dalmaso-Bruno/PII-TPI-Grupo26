@@ -1,6 +1,7 @@
 ﻿using CineTPIProgII.Models;
 using CineTPIProgII.Repositories.Interfaces;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -107,18 +108,27 @@ namespace CineTPIProgII.Controllers
         [HttpPut("{id}")]
         public IActionResult Put(int id, [FromBody] Funcione funcion)
         {
-            if (funcion == null || funcion.IdFuncion != id)
-                return BadRequest("Los datos de la función no son válidos.");
+            if (id != funcion.IdFuncion)
+            {
+                return BadRequest("El ID de la función no coincide.");
+            }
 
-            try
+            var funcionExistente = _repository.ObtenerFuncionPorId(id);
+
+            if (funcionExistente == null)
             {
-                var resultado = _repository.ModificarFuncion(funcion);
-                return resultado ? Ok() : NotFound("Función no encontrada.");
+                return NotFound("Función no encontrada.");
             }
-            catch (Exception ex)
+
+            // Actualizar la función a través del servicio
+            bool resultado = _repository.ModificarFuncion(funcion);
+
+            if (!resultado)
             {
-                return StatusCode(500, $"Error interno: {ex.Message}");
+                return StatusCode(500, "Hubo un error al modificar la función.");
             }
+
+            return NoContent(); // Respuesta exitosa sin contenido (204)
         }
 
         [HttpDelete("{id}")]

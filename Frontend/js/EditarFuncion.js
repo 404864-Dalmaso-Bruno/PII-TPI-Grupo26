@@ -49,15 +49,15 @@ document.addEventListener('DOMContentLoaded', function() {
         e.preventDefault(); // Prevenimos el envío del formulario
 
         // Obtenemos los datos del formulario
-        const idFuncion = document.getElementById('idFuncion');
-        const sala = document.getElementById('idSala');
-        const horario = document.getElementById('idHorario');
-        const formato = document.getElementById('idFormato');
-        const pelicula = document.getElementById('idPelicula');
-        const precio = document.getElementById('idPrecio');
-        const desde = document.getElementById('idDesde');
-        const hasta = document.getElementById('idHasta');
-        let estado = true;
+        const idFuncion = document.getElementById('idFuncion').value;
+        const sala = document.getElementById('idSala').value;
+        const horario = document.getElementById('idHorario').value;
+        const formato = document.getElementById('idFormato').value;
+        const pelicula = document.getElementById('idPelicula').value;
+        const precio = document.getElementById('idPrecio').value;
+        const desde = document.getElementById('idDesde').value;
+        const hasta = document.getElementById('idHasta').value;
+        let elEstado = true;
         if(document.getElementById('estado').value == 1 )
         {estado = true;}
         else 
@@ -67,10 +67,10 @@ document.addEventListener('DOMContentLoaded', function() {
         // Creamos el objeto que vamos a enviar
         const nuevaFuncion = {
             idFuncion : idFuncion,
-            idSala: sala,
+            idSala:     sala,
             idHorario: horario,
             idFormato: formato,
-            estado: estado,
+            estado: elEstado,
             idPelicula: pelicula,
             precio: precio,
             fechaDesde: desde,
@@ -86,15 +86,16 @@ document.addEventListener('DOMContentLoaded', function() {
             },
             body: JSON.stringify(nuevaFuncion),
         })
-        .then(response => response.json())
-        .then(data => {
-            console.log('Funcion editada:', data);
-            document.getElementById('responseMessage').textContent = 'Funcion editada exitosamente.';
-            //window.location.href = `Funciones.html`;
-        })
+        // .then(response => response.json())
+        // .then(data => {
+        //     console.log('Fucnion editada:', data);
+        //     document.getElementById('responseMessage').textContent = 'Funcion editada exitosamente.';
+        //     window.location.href = `Funciones.html`;
+        // })
         .catch(error => {
             console.error('Error al editar la funcion:', error);
             document.getElementById('responseMessage').textContent = 'Hubo un error al editar la funcion.';
         });
+        window.location.href = `Funciones.html`;
     });
 });

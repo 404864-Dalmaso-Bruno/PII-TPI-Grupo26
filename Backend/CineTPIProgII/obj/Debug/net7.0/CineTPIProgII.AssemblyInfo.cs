@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CineTPIProgII")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9bd606440ca0018ceba1b9e030adc030ef0c9a07")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6cda87c5db3e4c4370f10cf488a2cc3cf9adfb9e")]
 [assembly: System.Reflection.AssemblyProductAttribute("CineTPIProgII")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CineTPIProgII")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

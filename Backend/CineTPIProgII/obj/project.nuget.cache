@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fSoEvRMvk6o=",
+  "dgSpecHash": "nHrMfBDyAwc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\pedro\\OneDrive\\Desktop\\asd\\Facultad\\plan 2024\\Progra2\\PII-TPI-Grupo26 (2)\\PII-TPI-Grupo26\\Backend\\CineTPIProgII\\CineTPIProgII.csproj",
+  "projectFilePath": "C:\\Users\\pedro\\OneDrive\\Desktop\\asd\\Facultad\\plan 2024\\Progra2\\TPI_Programacion\\CineTPIProgII\\CineTPIProgII\\CineTPIProgII.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pedro\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

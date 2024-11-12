@@ -1,18 +1,13 @@
 ﻿using CineTPIProgII.Models;
 using CineTPIProgII.Repositories.Interfaces;
-using CineTPIProgII.Repositories.Utils;
-using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
-using System.Data;
-using System.Reflection.Metadata;
-using static System.Runtime.InteropServices.JavaScript.JSType;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace CineTPIProgII.Repositories
 {
     public class PeliculasRepository : IPeliculas
     {
-        private SqlConnection conexion = null;
-
         private CineProgContext _context;
 
         public PeliculasRepository(CineProgContext context)
@@ -30,11 +25,11 @@ namespace CineTPIProgII.Repositories
             }
             catch (Exception ex)
             {
-                // Manejo de excepciones: registrar el error
                 Console.WriteLine(ex.Message);
                 return false;
             }
         }
+
         public bool BajaPelicula(int id)
         {
             bool aux = true;
@@ -51,7 +46,6 @@ namespace CineTPIProgII.Repositories
                 {
                     aux = false;
                 }
-
             }
             catch (Exception ex)
             {
@@ -59,7 +53,6 @@ namespace CineTPIProgII.Repositories
             }
             return aux;
         }
-
 
         public List<Clasificacione> GetClasificaciones()
         {
@@ -81,27 +74,21 @@ namespace CineTPIProgII.Repositories
             return _context.Peliculas.ToList();
         }
 
-        
         public bool ModificarPelicula(Pelicula pelicula)
         {
             try
             {
-                // Buscar la película existente en la base de datos
                 var peliculaExistente = _context.Peliculas
                     .Include(p => p.IdClasificacionNavigation)
                     .Include(p => p.IdGeneroNavigation)
                     .Include(p => p.IdIdiomaNavigation)
-                    .Include(p => p.Funciones) // Si es necesario
-                    .Include(p => p.PeliculasActores) // Si es necesario
-                    .Include(p => p.PeliculasDirectores) // Si es necesario
                     .FirstOrDefault(p => p.IdPelicula == pelicula.IdPelicula);
 
                 if (peliculaExistente == null)
                 {
-                    return false; // La película no existe
+                    return false;
                 }
 
-                // Actualizar propiedades
                 peliculaExistente.Titulo = pelicula.Titulo;
                 peliculaExistente.Duracion = pelicula.Duracion;
                 peliculaExistente.Sinopsis = pelicula.Sinopsis;
@@ -110,15 +97,13 @@ namespace CineTPIProgII.Repositories
                 peliculaExistente.IdIdioma = pelicula.IdIdioma;
                 peliculaExistente.Estado = pelicula.Estado;
 
-                // Guardar cambios
                 _context.SaveChanges();
-                return true; // Modificación exitosa
+                return true;
             }
             catch (Exception ex)
             {
-                // Manejo de excepciones (puedes registrar el error si lo deseas)
                 Console.WriteLine($"Error al modificar la película: {ex.Message}");
-                return false; // Retornar false en caso de error
+                return false;
             }
         }
 

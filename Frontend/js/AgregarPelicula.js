@@ -13,6 +13,8 @@ document.addEventListener('DOMContentLoaded', function() {
         const genero = document.getElementById('genero').value;
         const idioma = document.getElementById('idioma').value;
 
+        
+
         // Creamos el objeto que vamos a enviar
         const nuevaPelicula = {
             titulo: titulo,

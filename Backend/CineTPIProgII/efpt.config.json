@@ -75,6 +75,10 @@
          "ObjectType": 0
       },
       {
+         "Name": "[dbo].[LOGINS]",
+         "ObjectType": 0
+      },
+      {
          "Name": "[dbo].[MEDIOS_PEDIDO]",
          "ObjectType": 0
       },

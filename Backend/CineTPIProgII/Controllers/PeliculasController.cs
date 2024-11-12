@@ -2,9 +2,6 @@
 using CineTPIProgII.Repositories.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
-
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-
 namespace CineTPIProgII.Controllers
 {
     [Route("api/[controller]")]
@@ -18,13 +15,13 @@ namespace CineTPIProgII.Controllers
             _repository = repository;
         }
 
-        [HttpGet("/clasificaciones")]
+        // GET: api/peliculas/clasificaciones
+        [HttpGet("clasificaciones")]
         public IActionResult GetClasificaciones()
         {
             try
             {
                 return Ok(_repository.GetClasificaciones());
-
             }
             catch (Exception ex)
             {
@@ -32,13 +29,13 @@ namespace CineTPIProgII.Controllers
             }
         }
 
-        [HttpGet("/idiomas")]
+        // GET: api/peliculas/idiomas
+        [HttpGet("idiomas")]
         public IActionResult GetIdiomas()
         {
             try
             {
                 return Ok(_repository.GetIdiomas());
-
             }
             catch (Exception ex)
             {
@@ -46,13 +43,13 @@ namespace CineTPIProgII.Controllers
             }
         }
 
-        [HttpGet("/generos")]
+        // GET: api/peliculas/generos
+        [HttpGet("generos")]
         public IActionResult GetGeneros()
         {
             try
             {
                 return Ok(_repository.GetGeneros());
-
             }
             catch (Exception ex)
             {
@@ -60,8 +57,7 @@ namespace CineTPIProgII.Controllers
             }
         }
 
-
-        // GET: api/<PeliculasController>
+        // GET: api/peliculas
         [HttpGet]
         public IActionResult GetPeliculas()
         {
@@ -75,6 +71,7 @@ namespace CineTPIProgII.Controllers
             }
         }
 
+        // GET: api/peliculas/{id}
         [HttpGet("{id}")]
         public IActionResult GetPeliculaPorId(int id)
         {
@@ -92,9 +89,7 @@ namespace CineTPIProgII.Controllers
             }
         }
 
-
-
-        // POST api/<PeliculasController>
+        // POST: api/peliculas
         [HttpPost]
         public IActionResult GuardarPelicula([FromBody] Pelicula nueva)
         {
@@ -112,8 +107,7 @@ namespace CineTPIProgII.Controllers
             }
         }
 
-
-        // PUT api/<PeliculasController>/5
+        // PUT: api/peliculas/{id}
         [HttpPut("{id}")]
         public IActionResult Put(int id, [FromBody] Pelicula pelicula)
         {
@@ -134,7 +128,7 @@ namespace CineTPIProgII.Controllers
             }
         }
 
-        // DELETE api/<PeliculasController>/5
+        // DELETE: api/peliculas/{id}
         [HttpDelete("{id}")]
         public IActionResult BorrarPelicula(int id)
         {

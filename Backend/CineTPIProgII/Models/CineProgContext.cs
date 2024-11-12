@@ -43,6 +43,8 @@ public partial class CineProgContext : DbContext
 
     public virtual DbSet<Idioma> Idiomas { get; set; }
 
+    public virtual DbSet<Login> Logins { get; set; }
+
     public virtual DbSet<MediosPedido> MediosPedidos { get; set; }
 
     public virtual DbSet<Nacionalidade> Nacionalidades { get; set; }
@@ -366,6 +368,23 @@ public partial class CineProgContext : DbContext
                 .HasMaxLength(200)
                 .IsUnicode(false)
                 .HasColumnName("idioma");
+        });
+
+        modelBuilder.Entity<Login>(entity =>
+        {
+            entity.HasKey(e => e.IdLogins);
+
+            entity.ToTable("LOGINS");
+
+            entity.Property(e => e.IdLogins).HasColumnName("id_logins");
+            entity.Property(e => e.Contraseña)
+                .HasMaxLength(50)
+                .IsUnicode(false)
+                .HasColumnName("contraseña");
+            entity.Property(e => e.Usuario)
+                .HasMaxLength(50)
+                .IsUnicode(false)
+                .HasColumnName("usuario");
         });
 
         modelBuilder.Entity<MediosPedido>(entity =>

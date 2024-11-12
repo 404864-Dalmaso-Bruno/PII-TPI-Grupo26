@@ -4,6 +4,7 @@ using CineTPIProgII.Repositories.Utils;
 using System.Data;
 using CineTPIProgII.Repositories.Interfaces;
 using static System.Runtime.InteropServices.JavaScript.JSType;
+using Microsoft.EntityFrameworkCore;
 
 namespace CineTPIProgII.Repositories
 {
@@ -90,16 +91,23 @@ namespace CineTPIProgII.Repositories
             try
             {
                 var funcionExistente = _context.Funciones.Find(funcion.IdFuncion);
-                if (funcionExistente == null) return false;
 
-                // Actualizar propiedades
+                if (funcionExistente == null)
+                {
+                    return false; // La función no existe
+                }
+
+                // Actualizar los campos con los nuevos valores
                 funcionExistente.IdSala = funcion.IdSala;
+                funcionExistente.IdHorario = funcion.IdHorario;
+                funcionExistente.IdFormato = funcion.IdFormato;
+                funcionExistente.Estado = funcion.Estado;
                 funcionExistente.IdPelicula = funcion.IdPelicula;
                 funcionExistente.Precio = funcion.Precio;
                 funcionExistente.FechaDesde = funcion.FechaDesde;
                 funcionExistente.FechaHasta = funcion.FechaHasta;
-                funcionExistente.IdHorario = funcion.IdHorario;
 
+                // Guardar los cambios sincrónicamente
                 _context.SaveChanges();
                 return true;
             }

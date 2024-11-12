@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Página Principal</title>
+        <title>Crear ticket</title>
 
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
         <!-- <link rel="stylesheet" href="Styles/StyleIndex.css"> -->
@@ -11,9 +11,8 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script> 
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
         <style>
-
-            #detailsTable{
-                color : white;
+            table{
+                color: white;
             }
             body {
                 font-family: "Poppins", sans-serif;
@@ -23,6 +22,7 @@
                 background-size: cover;
                 background-position: center;
                 color: #fff;
+                min-height: 100vh;
             }
             a {
                 color: #ffffff;
@@ -56,11 +56,25 @@
             #content {
                 flex: 1; /* Ocupa el resto del espacio a la derecha del menú */
                 padding: 20px; 
+                display : flex;
+                justify-content: center;
+                align-items: center;
+                min-height: 100%;
             }
             .content img {
                 max-width: 100%;
                 height: auto;
             }
+            .centrado{
+                text-align: center;
+            }
+            th{
+                color : white;
+            }
+            td{
+                color: white;
+            }
+
         </style>
        
     </head>
@@ -74,6 +88,7 @@
             <li><a href="Peliculas.html" class="actual">PELICULAS</a></li>
             <li><a href="funciones.html">FUNCIONES</a></li>
             <li><a href="tickets.html">TICKETS</a></li>
+     
         </ul>
 
     </nav>
@@ -96,47 +111,36 @@
                         <div class="col-4">
 
                         </div>
-                        <div class="col-4">
+                        <!-- <div class="col-4">
                             <label for="orderDate" class="formlabel">Empleado</label>
                             <input type="text" class="form-control" id="empleado" placeholder="Admin" readonly>
-                        </div>
-                        <!-- <div class="col-md-4">
-                            <label for="component" class="formlabel">Empleado id="empleado"</label>
-                            <select class="form-select" id="empleado">
-                                <option value="1">cliente 1</option>
-                                <option value="2">cliente 2</option>
-                                <option value="3">cliente 3"</option>
-                                <option value="4">cliente 5"</option>
-                            </select>
                         </div> -->
+                        <div class="col-md-4">
+                            <label for="listaEmpleado" class="formlabel">Empleado </label>
+                            <select class="form-select" id="listaEmpleado">
+                                
+                            </select>
+                        </div>
+                        
                     </div>
                      <!-- fila ========================================================================== fila -->
                     <div class="row g-3">
                         <div class="col-md-4">
                             <label for="component" class="formlabel">Cliente </label>
                             <select class="form-select" id="listaClientes">
-                                <!-- <option value="1">cliente 1</option>
-                                <option value="2">cliente 2</option>
-                                <option value="3">cliente 3"</option>
-                                <option value="4">cliente 5"</option> -->
+                                
                             </select>
                         </div>
                         <div class="col-md-4">
                             <label for="component" class="formlabel">Forma pago</label>
                             <select class="form-select" id="listaFormasPago">
-                                <!-- <option value="1">cliente 1</option>
-                                <option value="2">cliente 2</option>
-                                <option value="3">cliente 3"</option>
-                                <option value="4">cliente 5"</option> -->
+                                
                             </select>
                         </div>
                         <div class="col-md-4">
                             <label for="component" class="formlabel">Promociones </label>
                             <select class="form-select" id="listaPromociones">
-                                <!-- <option value="1">cliente 1</option>
-                                <option value="2">cliente 2</option>
-                                <option value="3">cliente 3"</option>
-                                <option value="4">cliente 5"</option> -->
+                                
                             </select>
                         </div>
                         
@@ -145,10 +149,7 @@
                         <div class="col-md-6">
                             <label for="component" class="formlabel">funcion </label>
                             <select class="form-select" id="listaFunciones">
-                                <!-- <option value="1">cliente 1</option>
-                                <option value="2">cliente 2</option>
-                                <option value="3">cliente 3"</option>
-                                <option value="4">cliente 5"</option> -->
+                                
                             </select>
                         </div>
                         <div class="col-md-2">
@@ -169,10 +170,7 @@
                         <div class="col-md-4">
                             <label for="butacas" class="formlabel"></label>
                             <select class="form-select" id="butacas">
-                                <option value="1">Butaca 1</option>
-                                <option value="2">Butaca2</option>
-                                <option value="3">Butaca3</option>
-                                <option value="4">Butaca5</option>
+
                             </select>
                         </div>
                         
@@ -192,9 +190,9 @@
                                             <th>Acciones </th>
                                         </tr>
                                     </thead>
-                                    <!-- BODY DE LA TABLA------------------------------------------- -->
-                                    <tbody>
-                                        <!-- Filas generadas dinámicamente --> 
+                                    
+                                    <tbody id="bodyDetalles">
+                                        <!-- [ Filas generadas ] --> 
                                     </tbody>
 
                                 </table>
@@ -202,13 +200,14 @@
                     <!-- fila ========================================================================== fila -->
                         <div class="row">
                             <div class="col-2">
-                                <label for="orderDate" class="formlabel"  >Precio total </label>
-                                <input type="number" class="form-control" id="idPrecioTotal" readonly >
+                                <label for="idPrecioTotal" class="formlabel"  >Precio total </label>
+                                <input type="number" value="0" class="form-control" id="idPrecioTotal" readonly >
                             </div>
                             <div class="col-8 text-end">
-                                <button type="submit" class="btn btnsuccess"><!-- Botón de Guardar -->
-                                <i class="fas fa-save"></i> Guardar
+                                <button type="submit" class="btn btn-primary" >
+                                    <i class="fas fa-plus"></i> Guardar ticket
                                 </button>
+                                
                             </div>
                         </div>
 
@@ -244,7 +243,7 @@
                 return; // Salir si la butaca ya está en la tabla
             }
 
-            const tableBody = document.querySelector('#detailsTable');
+            const tableBody = document.querySelector('#bodyDetalles');
             const newRow = document.createElement('tr');
 
             const butacaTD = document.createElement('td'); 
@@ -257,14 +256,18 @@
 
             const butacaPrecioTD = document.createElement('td'); 
                     butacaPrecioTD.textContent = butacaPrecio; 
-                    newRow.appendChild(butacaPrecioTD);
+                    newRow.appendChild(butacaPrecioTD);; 
 
-            
+                precioTotal.value = parseFloat(precioTotal.value) + parseFloat(butacaPrecio);
+
             const accionesTd = document.createElement('td'); 
-            const eliminarBtn = document.createElement('button'); // Botón Eliminar 
+            const eliminarBtn = document.createElement('button'); // Botón Elimina
+            eliminarBtn.classList.add('btn','btn-danger');
             eliminarBtn.textContent = 'Eliminar'; 
+            
             eliminarBtn.addEventListener('click', () => { 
-                //addedButacas.delete(butacaId); // Eliminar la butaca del conjunto
+                addedButacas.delete(butacaId); // Eliminar la butaca del conjunto
+                eliminarRow(butacaId);
                 }); 
             accionesTd.appendChild(eliminarBtn);
             newRow.appendChild(accionesTd);  
@@ -282,6 +285,31 @@
             alert("Por favor, seleccione una función.");
         }
     });
+
+    //Funcion que elimina el detalle de la tabla detalles
+    function eliminarRow(butacaId) {
+        const tableBody = document.querySelector('#bodyDetalles');
+        const rows = tableBody.querySelectorAll('tr');
+        
+        rows.forEach(row => {
+            const cellButacaId = row.cells[0].textContent;
+            
+            if (cellButacaId === butacaId) {
+                tableBody.removeChild(row); // Eliminar la fila de la tabla
+                const butacaPrecio = parseFloat(row.cells[2].textContent); // Obtener el precio de la butaca eliminada
+                const precioTotal = document.getElementById('idPrecioTotal');
+                precioTotal.value = (parseFloat(precioTotal.value) - butacaPrecio); // Restar el precio al total
+
+            }     
+        });
+        
+        if (tableBody.querySelectorAll('tr').length === 0) {
+        const selectElement = document.getElementById('listaFunciones');
+        selectElement.disabled = false; // Habilitar el select si no hay filas
+    }
+
+    }
+
 
     </script>
     <!-- ==============================================[##########################]================================================ -->

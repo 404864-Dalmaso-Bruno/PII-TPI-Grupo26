@@ -16,6 +16,7 @@
                 background-size: cover;
                 background-position: center;
                 color: #fff;
+                min-height: 100vh;
             }
             a {
                 color: #ffffff;
@@ -51,11 +52,18 @@
                 padding: 20px; 
                 display : flex;
                 justify-content: center;
+                align-items: center;
+                min-height: 100%;
             }
             .content img {
                 max-width: 100%;
                 height: auto;
             }
+            .centrado{
+                text-align: center;
+            }
+            
+
         </style>
         <script>
             document.addEventListener("DOMContentLoaded", function() {
@@ -82,8 +90,8 @@
         <ul>
             <li><a href="index.html">INICIO</a></li>
             <li><a href="Peliculas.html" class="actual">PELICULAS</a></li>
-            <li><a href="funciones.html">FUNCIONES</a></li>
-            <li><a href="tickets.html">TICKETS</a></li>
+            <li><a href="Funciones.html">FUNCIONES</a></li>
+            <li><a href="#">TICKETS</a></li>
         </ul>
         
     </nav>
@@ -101,9 +109,19 @@
                             <th>Empleado ||</th>  
                             <th>Promocion ||</th>
                             <th>Forma Pago ||</th>
+                            <th>Fecha||</th>
                             <th>Monto ||</th>
-                            <th>Estado ||</th>
-                            <th>Acciones</th> 
+                            <th>
+                                <select class="form-control" id="selEStado" >
+                                    <option value= 0>Todos</option>
+                                    <option value= 1>Activo</option>
+                                    <option value= 2 >Inactivo</option>
+                                </select>
+                            </th>
+                            <th>Acciones||</th>
+                            <th>Detalles</th>
+                            
+                            
                         </tr> 
                     </thead> 
                     <tbody id="tickets-body"> 
@@ -114,6 +132,6 @@
         </div>
         
     </div>
-    <script src="js/Tickets.js"></script> 
+    <script src="/js/Tickets.js"></script> 
 </body>
 </html>

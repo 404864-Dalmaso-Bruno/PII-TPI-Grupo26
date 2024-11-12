@@ -26,6 +26,7 @@ builder.Services.AddDbContext<CineProgContext>(options =>
 builder.Services.AddScoped<IFunciones, FuncionesRepository>();
 builder.Services.AddScoped<IPeliculas, PeliculasRepository>();
 builder.Services.AddScoped<ITickets, TicketsRepository>();
+builder.Services.AddScoped<ILogins, LoginsRepository>();
 
 var app = builder.Build();
 

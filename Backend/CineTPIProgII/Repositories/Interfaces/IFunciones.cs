@@ -12,5 +12,6 @@ namespace CineTPIProgII.Repositories.Interfaces
         bool AltaFuncion(Funcione funcion);
         bool BajaFuncion(int id);
         bool ModificarFuncion(Funcione funcion);
+        
     }
 }

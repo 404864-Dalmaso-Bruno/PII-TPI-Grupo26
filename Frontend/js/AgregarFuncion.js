@@ -6,37 +6,34 @@ document.addEventListener('DOMContentLoaded', function() {
         e.preventDefault(); // Prevenimos el envío del formulario
 
         // Obtenemos los datos del formulario
-        const sala = document.getElementById('idSala').value;
-        const hor = document.getElementById('idHorario').value;
-        const horario = new Date(hor).toISOString();
-        const formato = document.getElementById('idFormato').value;
-        const pelicula = document.getElementById('idPelicula').value;
-        const precio = document.getElementById('idPrecio').value;
+        const sala = parseInt(document.getElementById('idSala').value, 10);
+        const horario = parseInt(document.getElementById('idHorario').value, 10); 
+        const formato = parseInt(document.getElementById('idFormato').value, 10);
+        const pelicula = parseInt(document.getElementById('idPelicula').value, 10);
+        const precio = parseFloat(document.getElementById('idPrecio').value);
+
         const desde = document.getElementById('idDesde').value;
         const hasta = document.getElementById('idHasta').value;
-        // "idFuncion": 0,
-        // "idSala": 0,
-        // "idHorario": 0,
-        // "idFormato": 0,
-        // "estado": true,
-        // "idPelicula": 0,
-        // "precio": 0,
-        // "fechaDesde": "2024-11-06T14:30:47.360Z",
-        // "fechaHasta": "2024-11-06T14:30:47.360Z",
-        // "detallesTickets": [ 
-        // Creamos el objeto que vamos a enviar
+
+        const fechaInputDesde = new Date(desde);  // Crea un objeto Date 
+        const fechaDesde = fechaInputDesde.toISOString(); // Convierte a formato ISO 8601 <<OK>>
+
+        const fechaInputHasta = new Date(hasta);  // Crea un objeto Date 
+        const fechaHasta = fechaInputHasta.toISOString(); // Convierte a formato ISO 8601 <<OK>>
+
+
+
         const nuevaFuncion = {
-            idFuncion: 0,
+            idFuncion: 0, // Asumimos que es autogenerado
             idSala: sala,
-            idHorario : horario,
+            idHorario: horario,
             idFormato: formato,
             estado: true,
             idPelicula: pelicula,
             precio: precio,
-            fechaDesde: desde,
-            fechaHasta: hasta,
-            detallesTickets: [],
-              // Si no tienes funciones aún, puedes dejarlo vacío
+            fechaDesde: fechaDesde,
+            fechaHasta: fechaHasta,
+            detallesTickets: [], // Sin detalles por ahora
         };
         
         // Hacemos la solicitud POST a la API
@@ -53,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function() {
             document.getElementById('responseMessage').textContent = 'Funcion agregada exitosamente.';
         })
         .catch(error => {
-            console.error('Error al agregar la Funcion:', error);
+            console.error('Error al agregar la funcion:', error);
             document.getElementById('responseMessage').textContent = 'Hubo un error al agregar la funcion.';
         });
     });

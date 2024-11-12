@@ -18,15 +18,65 @@ namespace CineTPIProgII.Controllers
             _repository = repository;
         }
 
+        [HttpPost("/Reservas")]
+        public IActionResult Post([FromBody] Reservada reserva)
+        {
+            if (reserva == null)
+            {
+                return BadRequest("El detalle no puede ser nulo.");
+            }
+
+            var resultado = _repository.NuevaReserva(reserva);
+
+            if (resultado)
+            {
+                return CreatedAtAction(nameof(Post), new { id = reserva.IdReserva }, reserva);
+            }
+            return StatusCode(500, "Error al crear la reserva. Intente más tarde.");
+
+        }
+
+
+
+
+
+
+        //NuevoDetalle
+        [HttpPost("/Detalles")]
+        public IActionResult Post([FromBody] DetallesTicket nuevo)
+        {
+            if (nuevo == null)
+            {
+                return BadRequest("El detalle no puede ser nulo.");
+            }
+
+            var resultado = _repository.NuevoDetalle(nuevo);
+
+            if (resultado)
+            {
+                return CreatedAtAction(nameof(Post), new { id = nuevo.IdTicket }, nuevo);
+            }
+            return StatusCode(500, "Error al crear el detalle. Intente más tarde.");
+        }
+
+
+        [HttpGet("/Detalles")]
+        public IActionResult GetDetalles() => GetResponse(() => _repository.GetDetalles());
 
         [HttpGet("/Tickets")]
         public IActionResult GetTickets() => GetResponse(() => _repository.GetTickets());
+
+        [HttpGet("/Empleados")]
+        public IActionResult GetEmpleados() => GetResponse(() => _repository.GetEmpleados());
 
         [HttpGet("/Clientes")]
         public IActionResult GetClientes() => GetResponse(() => _repository.GetClientes());
 
         [HttpGet("/Butacas")]
         public IActionResult GetButacas() => GetResponse(() => _repository.GetButacas());
+
+        [HttpGet("/Butacas/Reservadas")]
+        public IActionResult GetReservadas() => GetResponse(() => _repository.GetReservados());
 
         [HttpGet("/Funciones")]
         public IActionResult GetFunciones() => GetResponse(() => _repository.GetFunciones());
