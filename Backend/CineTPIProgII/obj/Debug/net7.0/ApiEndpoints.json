@@ -109,6 +109,64 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "CineTPIProgII.Controllers.LoginsController",
+    "Method": "GetLogins",
+    "RelativePath": "api/Logins",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CineTPIProgII.Controllers.LoginsController",
+    "Method": "Post",
+    "RelativePath": "api/Logins",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "login",
+        "Type": "CineTPIProgII.Models.Login",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CineTPIProgII.Controllers.LoginsController",
+    "Method": "Login",
+    "RelativePath": "api/Logins/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "login",
+        "Type": "CineTPIProgII.Models.Login",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CineTPIProgII.Controllers.LoginsController",
+    "Method": "Login",
+    "RelativePath": "api/Logins/usuario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "CineTPIProgII.Controllers.PeliculasController",
     "Method": "GetPeliculas",
     "RelativePath": "api/Peliculas",
@@ -188,6 +246,36 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "CineTPIProgII.Controllers.PeliculasController",
+    "Method": "GetClasificaciones",
+    "RelativePath": "api/Peliculas/clasificaciones",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CineTPIProgII.Controllers.PeliculasController",
+    "Method": "GetGeneros",
+    "RelativePath": "api/Peliculas/generos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CineTPIProgII.Controllers.PeliculasController",
+    "Method": "GetIdiomas",
+    "RelativePath": "api/Peliculas/idiomas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "CineTPIProgII.Controllers.TicketsController",
     "Method": "Post",
     "RelativePath": "api/Tickets",
@@ -230,9 +318,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "CineTPIProgII.Controllers.PeliculasController",
-    "Method": "GetClasificaciones",
-    "RelativePath": "clasificaciones",
+    "ContainingType": "CineTPIProgII.Controllers.TicketsController",
+    "Method": "GetReservadas",
+    "RelativePath": "Butacas/Reservadas",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -243,6 +331,42 @@
     "ContainingType": "CineTPIProgII.Controllers.TicketsController",
     "Method": "GetClientes",
     "RelativePath": "Clientes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CineTPIProgII.Controllers.TicketsController",
+    "Method": "Post",
+    "RelativePath": "Detalles",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nuevo",
+        "Type": "CineTPIProgII.Models.DetallesTicket",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CineTPIProgII.Controllers.TicketsController",
+    "Method": "GetDetalles",
+    "RelativePath": "Detalles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CineTPIProgII.Controllers.TicketsController",
+    "Method": "GetEmpleados",
+    "RelativePath": "Empleados",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -270,26 +394,6 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "CineTPIProgII.Controllers.PeliculasController",
-    "Method": "GetGeneros",
-    "RelativePath": "generos",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "CineTPIProgII.Controllers.PeliculasController",
-    "Method": "GetIdiomas",
-    "RelativePath": "idiomas",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
     "ContainingType": "CineTPIProgII.Controllers.TicketsController",
     "Method": "GetMediosDeVenta",
     "RelativePath": "MedioDeVenta",
@@ -303,6 +407,32 @@
     "ContainingType": "CineTPIProgII.Controllers.TicketsController",
     "Method": "GetPromociones",
     "RelativePath": "Promociones",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CineTPIProgII.Controllers.TicketsController",
+    "Method": "Post",
+    "RelativePath": "Reservas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reserva",
+        "Type": "CineTPIProgII.Models.Reservada",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CineTPIProgII.Controllers.TicketsController",
+    "Method": "GetTickets",
+    "RelativePath": "Tickets",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

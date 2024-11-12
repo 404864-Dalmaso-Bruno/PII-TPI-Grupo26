@@ -11,7 +11,7 @@ namespace CineTPIProgII.Repositories.Utils
         private DataHelper()
         {
             //Primer paso
-            _connection = new SqlConnection(@"Data Source=DESKTOP-7PRCNHE;Initial Catalog=CineProg;Integrated Security=True;Encrypt=False");
+            _connection = new SqlConnection(@"Data Source=.\\SQLEXPRESS;Initial Catalog=CineProg1;Integrated Security=True;Encrypt=False;Trust Server Certificate=True");
         }
 
         public static DataHelper GetInstance()
