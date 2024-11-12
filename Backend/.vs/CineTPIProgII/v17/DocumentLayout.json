@@ -1,14 +1,97 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\pedro\\OneDrive\\Desktop\\asd\\Facultad\\plan 2024\\Progra2\\PII-TPI-Grupo26 (2)\\PII-TPI-Grupo26\\Backend\\",
+  "WorkspaceRootPath": "C:\\Users\\pedro\\OneDrive\\Desktop\\asd\\Facultad\\plan 2024\\Progra2\\TPI_Programacion\\CineTPIProgII\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|c:\\users\\pedro\\onedrive\\desktop\\asd\\facultad\\plan 2024\\progra2\\pii-tpi-grupo26 (2)\\pii-tpi-grupo26\\backend\\cinetpiprogii\\repositories\\funcionesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|c:\\users\\pedro\\onedrive\\desktop\\asd\\facultad\\plan 2024\\progra2\\tpi_programacion\\cinetpiprogii\\cinetpiprogii\\controllers\\peliculascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|solutionrelative:cinetpiprogii\\controllers\\peliculascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|c:\\users\\pedro\\onedrive\\desktop\\asd\\facultad\\plan 2024\\progra2\\tpi_programacion\\cinetpiprogii\\cinetpiprogii\\controllers\\loginscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|solutionrelative:cinetpiprogii\\controllers\\loginscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|c:\\users\\pedro\\onedrive\\desktop\\asd\\facultad\\plan 2024\\progra2\\tpi_programacion\\cinetpiprogii\\cinetpiprogii\\controllers\\funcionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|solutionrelative:cinetpiprogii\\controllers\\funcionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|c:\\users\\pedro\\onedrive\\desktop\\asd\\facultad\\plan 2024\\progra2\\tpi_programacion\\cinetpiprogii\\cinetpiprogii\\repositories\\funcionesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|solutionrelative:cinetpiprogii\\repositories\\funcionesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|c:\\users\\pedro\\onedrive\\desktop\\asd\\facultad\\plan 2024\\progra2\\pii-tpi-grupo26 (2)\\pii-tpi-grupo26\\backend\\cinetpiprogii\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|c:\\users\\pedro\\onedrive\\desktop\\asd\\facultad\\plan 2024\\progra2\\tpi_programacion\\cinetpiprogii\\cinetpiprogii\\repositories\\peliculasrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|solutionrelative:cinetpiprogii\\repositories\\peliculasrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|c:\\users\\pedro\\onedrive\\desktop\\asd\\facultad\\plan 2024\\progra2\\tpi_programacion\\cinetpiprogii\\cinetpiprogii\\models\\detallesticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|solutionrelative:cinetpiprogii\\models\\detallesticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|c:\\users\\pedro\\onedrive\\desktop\\asd\\facultad\\plan 2024\\progra2\\tpi_programacion\\cinetpiprogii\\cinetpiprogii\\repositories\\ticketsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|solutionrelative:cinetpiprogii\\repositories\\ticketsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|c:\\users\\pedro\\onedrive\\desktop\\asd\\facultad\\plan 2024\\progra2\\tpi_programacion\\cinetpiprogii\\cinetpiprogii\\controllers\\ticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|solutionrelative:cinetpiprogii\\controllers\\ticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|c:\\users\\pedro\\onedrive\\desktop\\asd\\facultad\\plan 2024\\progra2\\tpi_programacion\\cinetpiprogii\\cinetpiprogii\\repositories\\interfaces\\itickets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|solutionrelative:cinetpiprogii\\repositories\\interfaces\\itickets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|c:\\users\\pedro\\onedrive\\desktop\\asd\\facultad\\plan 2024\\progra2\\tpi_programacion\\cinetpiprogii\\cinetpiprogii\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|solutionrelative:cinetpiprogii\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|c:\\users\\pedro\\onedrive\\desktop\\asd\\facultad\\plan 2024\\progra2\\tpi_programacion\\cinetpiprogii\\cinetpiprogii\\models\\funcione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|solutionrelative:cinetpiprogii\\models\\funcione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|c:\\users\\pedro\\onedrive\\desktop\\asd\\facultad\\plan 2024\\progra2\\tpi_programacion\\cinetpiprogii\\cinetpiprogii\\repositories\\loginsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|solutionrelative:cinetpiprogii\\repositories\\loginsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|c:\\users\\pedro\\onedrive\\desktop\\asd\\facultad\\plan 2024\\progra2\\tpi_programacion\\cinetpiprogii\\cinetpiprogii\\repositories\\interfaces\\ilogins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|solutionrelative:cinetpiprogii\\repositories\\interfaces\\ilogins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|c:\\users\\pedro\\onedrive\\desktop\\asd\\facultad\\plan 2024\\progra2\\tpi_programacion\\cinetpiprogii\\cinetpiprogii\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|solutionrelative:cinetpiprogii\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|c:\\users\\pedro\\onedrive\\desktop\\asd\\facultad\\plan 2024\\progra2\\tpi_programacion\\cinetpiprogii\\cinetpiprogii\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|solutionrelative:cinetpiprogii\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|c:\\users\\pedro\\onedrive\\desktop\\asd\\facultad\\plan 2024\\progra2\\tpi_programacion\\cinetpiprogii\\cinetpiprogii\\efpt.config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|solutionrelative:cinetpiprogii\\efpt.config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|c:\\users\\pedro\\onedrive\\desktop\\asd\\facultad\\plan 2024\\progra2\\tpi_programacion\\cinetpiprogii\\cinetpiprogii\\models\\sala.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|solutionrelative:cinetpiprogii\\models\\sala.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|c:\\users\\pedro\\onedrive\\desktop\\asd\\facultad\\plan 2024\\progra2\\tpi_programacion\\cinetpiprogii\\cinetpiprogii\\repositories\\interfaces\\ipeliculas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|solutionrelative:cinetpiprogii\\repositories\\interfaces\\ipeliculas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|c:\\users\\pedro\\onedrive\\desktop\\asd\\facultad\\plan 2024\\progra2\\tpi_programacion\\cinetpiprogii\\cinetpiprogii\\models\\cineprogcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|solutionrelative:cinetpiprogii\\models\\cineprogcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|c:\\users\\pedro\\onedrive\\desktop\\asd\\facultad\\plan 2024\\progra2\\tpi_programacion\\cinetpiprogii\\cinetpiprogii\\repositories\\interfaces\\ifunciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|solutionrelative:cinetpiprogii\\repositories\\interfaces\\ifunciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|c:\\users\\pedro\\onedrive\\desktop\\asd\\facultad\\plan 2024\\progra2\\tpi_programacion\\cinetpiprogii\\cinetpiprogii\\repositories\\util\\datahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|solutionrelative:cinetpiprogii\\repositories\\util\\datahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\esequ\\OneDrive\\Escritorio\\Trabajo_Practico_Integrador\\CineTpi_Front\\.vscode\\settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|c:\\users\\pedro\\onedrive\\desktop\\asd\\facultad\\plan 2024\\progra2\\tpi_programacion\\cinetpiprogii\\cinetpiprogii\\repositories\\util\\parametersql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ADD6C36-CB2F-4CCD-A7A3-A7EEF87E5753}|CineTPIProgII\\CineTPIProgII.csproj|solutionrelative:cinetpiprogii\\repositories\\util\\parametersql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +101,288 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FuncionesRepository.cs",
-              "DocumentMoniker": "C:\\Users\\pedro\\OneDrive\\Desktop\\asd\\Facultad\\plan 2024\\Progra2\\PII-TPI-Grupo26 (2)\\PII-TPI-Grupo26\\Backend\\CineTPIProgII\\Repositories\\FuncionesRepository.cs",
-              "RelativeDocumentMoniker": "CineTPIProgII\\Repositories\\FuncionesRepository.cs",
-              "ToolTip": "C:\\Users\\pedro\\OneDrive\\Desktop\\asd\\Facultad\\plan 2024\\Progra2\\PII-TPI-Grupo26 (2)\\PII-TPI-Grupo26\\Backend\\CineTPIProgII\\Repositories\\FuncionesRepository.cs",
-              "RelativeToolTip": "CineTPIProgII\\Repositories\\FuncionesRepository.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwAAAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "FuncionesController.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\OneDrive\\Desktop\\asd\\Facultad\\plan 2024\\Progra2\\TPI_Programacion\\CineTPIProgII\\CineTPIProgII\\Controllers\\FuncionesController.cs",
+              "RelativeDocumentMoniker": "CineTPIProgII\\Controllers\\FuncionesController.cs",
+              "ToolTip": "C:\\Users\\pedro\\OneDrive\\Desktop\\asd\\Facultad\\plan 2024\\Progra2\\TPI_Programacion\\CineTPIProgII\\CineTPIProgII\\Controllers\\FuncionesController.cs",
+              "RelativeToolTip": "CineTPIProgII\\Controllers\\FuncionesController.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAmwGIAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T21:20:22.301Z",
+              "WhenOpened": "2024-11-08T18:42:56.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FuncionesRepository.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\OneDrive\\Desktop\\asd\\Facultad\\plan 2024\\Progra2\\TPI_Programacion\\CineTPIProgII\\CineTPIProgII\\Repositories\\FuncionesRepository.cs",
+              "RelativeDocumentMoniker": "CineTPIProgII\\Repositories\\FuncionesRepository.cs",
+              "ToolTip": "C:\\Users\\pedro\\OneDrive\\Desktop\\asd\\Facultad\\plan 2024\\Progra2\\TPI_Programacion\\CineTPIProgII\\CineTPIProgII\\Repositories\\FuncionesRepository.cs",
+              "RelativeToolTip": "CineTPIProgII\\Repositories\\FuncionesRepository.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAmwBgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T18:42:56.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Funcione.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\OneDrive\\Desktop\\asd\\Facultad\\plan 2024\\Progra2\\TPI_Programacion\\CineTPIProgII\\CineTPIProgII\\Models\\Funcione.cs",
+              "RelativeDocumentMoniker": "CineTPIProgII\\Models\\Funcione.cs",
+              "ToolTip": "C:\\Users\\pedro\\OneDrive\\Desktop\\asd\\Facultad\\plan 2024\\Progra2\\TPI_Programacion\\CineTPIProgII\\CineTPIProgII\\Models\\Funcione.cs",
+              "RelativeToolTip": "CineTPIProgII\\Models\\Funcione.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAIwBcAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T18:42:56.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TicketsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\OneDrive\\Desktop\\asd\\Facultad\\plan 2024\\Progra2\\TPI_Programacion\\CineTPIProgII\\CineTPIProgII\\Repositories\\TicketsRepository.cs",
+              "RelativeDocumentMoniker": "CineTPIProgII\\Repositories\\TicketsRepository.cs",
+              "ToolTip": "C:\\Users\\pedro\\OneDrive\\Desktop\\asd\\Facultad\\plan 2024\\Progra2\\TPI_Programacion\\CineTPIProgII\\CineTPIProgII\\Repositories\\TicketsRepository.cs",
+              "RelativeToolTip": "CineTPIProgII\\Repositories\\TicketsRepository.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAADwv1IAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T18:42:56.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PeliculasRepository.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\OneDrive\\Desktop\\asd\\Facultad\\plan 2024\\Progra2\\TPI_Programacion\\CineTPIProgII\\CineTPIProgII\\Repositories\\PeliculasRepository.cs",
+              "RelativeDocumentMoniker": "CineTPIProgII\\Repositories\\PeliculasRepository.cs",
+              "ToolTip": "C:\\Users\\pedro\\OneDrive\\Desktop\\asd\\Facultad\\plan 2024\\Progra2\\TPI_Programacion\\CineTPIProgII\\CineTPIProgII\\Repositories\\PeliculasRepository.cs",
+              "RelativeToolTip": "CineTPIProgII\\Repositories\\PeliculasRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAwDgAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T18:42:56.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PeliculasController.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\OneDrive\\Desktop\\asd\\Facultad\\plan 2024\\Progra2\\TPI_Programacion\\CineTPIProgII\\CineTPIProgII\\Controllers\\PeliculasController.cs",
+              "RelativeDocumentMoniker": "CineTPIProgII\\Controllers\\PeliculasController.cs",
+              "ToolTip": "C:\\Users\\pedro\\OneDrive\\Desktop\\asd\\Facultad\\plan 2024\\Progra2\\TPI_Programacion\\CineTPIProgII\\CineTPIProgII\\Controllers\\PeliculasController.cs",
+              "RelativeToolTip": "CineTPIProgII\\Controllers\\PeliculasController.cs",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAQwF0AAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T18:42:56.187Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "LoginsController.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\OneDrive\\Desktop\\asd\\Facultad\\plan 2024\\Progra2\\TPI_Programacion\\CineTPIProgII\\CineTPIProgII\\Controllers\\LoginsController.cs",
+              "RelativeDocumentMoniker": "CineTPIProgII\\Controllers\\LoginsController.cs",
+              "ToolTip": "C:\\Users\\pedro\\OneDrive\\Desktop\\asd\\Facultad\\plan 2024\\Progra2\\TPI_Programacion\\CineTPIProgII\\CineTPIProgII\\Controllers\\LoginsController.cs",
+              "RelativeToolTip": "CineTPIProgII\\Controllers\\LoginsController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwAQAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T18:42:56.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DetallesTicket.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\OneDrive\\Desktop\\asd\\Facultad\\plan 2024\\Progra2\\TPI_Programacion\\CineTPIProgII\\CineTPIProgII\\Models\\DetallesTicket.cs",
+              "RelativeDocumentMoniker": "CineTPIProgII\\Models\\DetallesTicket.cs",
+              "ToolTip": "C:\\Users\\pedro\\OneDrive\\Desktop\\asd\\Facultad\\plan 2024\\Progra2\\TPI_Programacion\\CineTPIProgII\\CineTPIProgII\\Models\\DetallesTicket.cs",
+              "RelativeToolTip": "CineTPIProgII\\Models\\DetallesTicket.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T20:31:04.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TicketsController.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\OneDrive\\Desktop\\asd\\Facultad\\plan 2024\\Progra2\\TPI_Programacion\\CineTPIProgII\\CineTPIProgII\\Controllers\\TicketsController.cs",
+              "RelativeDocumentMoniker": "CineTPIProgII\\Controllers\\TicketsController.cs",
+              "ToolTip": "C:\\Users\\pedro\\OneDrive\\Desktop\\asd\\Facultad\\plan 2024\\Progra2\\TPI_Programacion\\CineTPIProgII\\CineTPIProgII\\Controllers\\TicketsController.cs",
+              "RelativeToolTip": "CineTPIProgII\\Controllers\\TicketsController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwCQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T18:42:56.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LoginsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\OneDrive\\Desktop\\asd\\Facultad\\plan 2024\\Progra2\\TPI_Programacion\\CineTPIProgII\\CineTPIProgII\\Repositories\\LoginsRepository.cs",
+              "RelativeDocumentMoniker": "CineTPIProgII\\Repositories\\LoginsRepository.cs",
+              "ToolTip": "C:\\Users\\pedro\\OneDrive\\Desktop\\asd\\Facultad\\plan 2024\\Progra2\\TPI_Programacion\\CineTPIProgII\\CineTPIProgII\\Repositories\\LoginsRepository.cs",
+              "RelativeToolTip": "CineTPIProgII\\Repositories\\LoginsRepository.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAowCgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T18:42:56.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ITickets.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\OneDrive\\Desktop\\asd\\Facultad\\plan 2024\\Progra2\\TPI_Programacion\\CineTPIProgII\\CineTPIProgII\\Repositories\\Interfaces\\ITickets.cs",
+              "RelativeDocumentMoniker": "CineTPIProgII\\Repositories\\Interfaces\\ITickets.cs",
+              "ToolTip": "C:\\Users\\pedro\\OneDrive\\Desktop\\asd\\Facultad\\plan 2024\\Progra2\\TPI_Programacion\\CineTPIProgII\\CineTPIProgII\\Repositories\\Interfaces\\ITickets.cs",
+              "RelativeToolTip": "CineTPIProgII\\Repositories\\Interfaces\\ITickets.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T18:42:56.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\OneDrive\\Desktop\\asd\\Facultad\\plan 2024\\Progra2\\TPI_Programacion\\CineTPIProgII\\CineTPIProgII\\Models\\Ticket.cs",
+              "RelativeDocumentMoniker": "CineTPIProgII\\Models\\Ticket.cs",
+              "ToolTip": "C:\\Users\\pedro\\OneDrive\\Desktop\\asd\\Facultad\\plan 2024\\Progra2\\TPI_Programacion\\CineTPIProgII\\CineTPIProgII\\Models\\Ticket.cs",
+              "RelativeToolTip": "CineTPIProgII\\Models\\Ticket.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAuwCUAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T18:42:56.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ILogins.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\OneDrive\\Desktop\\asd\\Facultad\\plan 2024\\Progra2\\TPI_Programacion\\CineTPIProgII\\CineTPIProgII\\Repositories\\Interfaces\\ILogins.cs",
+              "RelativeDocumentMoniker": "CineTPIProgII\\Repositories\\Interfaces\\ILogins.cs",
+              "ToolTip": "C:\\Users\\pedro\\OneDrive\\Desktop\\asd\\Facultad\\plan 2024\\Progra2\\TPI_Programacion\\CineTPIProgII\\CineTPIProgII\\Repositories\\Interfaces\\ILogins.cs",
+              "RelativeToolTip": "CineTPIProgII\\Repositories\\Interfaces\\ILogins.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T18:42:56.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\pedro\\OneDrive\\Desktop\\asd\\Facultad\\plan 2024\\Progra2\\PII-TPI-Grupo26 (2)\\PII-TPI-Grupo26\\Backend\\CineTPIProgII\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\pedro\\OneDrive\\Desktop\\asd\\Facultad\\plan 2024\\Progra2\\TPI_Programacion\\CineTPIProgII\\CineTPIProgII\\appsettings.json",
               "RelativeDocumentMoniker": "CineTPIProgII\\appsettings.json",
-              "ToolTip": "C:\\Users\\pedro\\OneDrive\\Desktop\\asd\\Facultad\\plan 2024\\Progra2\\PII-TPI-Grupo26 (2)\\PII-TPI-Grupo26\\Backend\\CineTPIProgII\\appsettings.json",
+              "ToolTip": "C:\\Users\\pedro\\OneDrive\\Desktop\\asd\\Facultad\\plan 2024\\Progra2\\TPI_Programacion\\CineTPIProgII\\CineTPIProgII\\appsettings.json",
               "RelativeToolTip": "CineTPIProgII\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAACeAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-06T13:24:01.608Z"
+              "WhenOpened": "2024-11-08T18:42:56.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\OneDrive\\Desktop\\asd\\Facultad\\plan 2024\\Progra2\\TPI_Programacion\\CineTPIProgII\\CineTPIProgII\\Program.cs",
+              "RelativeDocumentMoniker": "CineTPIProgII\\Program.cs",
+              "ToolTip": "C:\\Users\\pedro\\OneDrive\\Desktop\\asd\\Facultad\\plan 2024\\Progra2\\TPI_Programacion\\CineTPIProgII\\CineTPIProgII\\Program.cs",
+              "RelativeToolTip": "CineTPIProgII\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAiwBoAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T18:42:56.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IPeliculas.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\OneDrive\\Desktop\\asd\\Facultad\\plan 2024\\Progra2\\TPI_Programacion\\CineTPIProgII\\CineTPIProgII\\Repositories\\Interfaces\\IPeliculas.cs",
+              "RelativeDocumentMoniker": "CineTPIProgII\\Repositories\\Interfaces\\IPeliculas.cs",
+              "ToolTip": "C:\\Users\\pedro\\OneDrive\\Desktop\\asd\\Facultad\\plan 2024\\Progra2\\TPI_Programacion\\CineTPIProgII\\CineTPIProgII\\Repositories\\Interfaces\\IPeliculas.cs",
+              "RelativeToolTip": "CineTPIProgII\\Repositories\\Interfaces\\IPeliculas.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T18:42:56.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IFunciones.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\OneDrive\\Desktop\\asd\\Facultad\\plan 2024\\Progra2\\TPI_Programacion\\CineTPIProgII\\CineTPIProgII\\Repositories\\Interfaces\\IFunciones.cs",
+              "RelativeDocumentMoniker": "CineTPIProgII\\Repositories\\Interfaces\\IFunciones.cs",
+              "ToolTip": "C:\\Users\\pedro\\OneDrive\\Desktop\\asd\\Facultad\\plan 2024\\Progra2\\TPI_Programacion\\CineTPIProgII\\CineTPIProgII\\Repositories\\Interfaces\\IFunciones.cs",
+              "RelativeToolTip": "CineTPIProgII\\Repositories\\Interfaces\\IFunciones.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T18:42:56.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "efpt.config.json",
+              "DocumentMoniker": "C:\\Users\\pedro\\OneDrive\\Desktop\\asd\\Facultad\\plan 2024\\Progra2\\TPI_Programacion\\CineTPIProgII\\CineTPIProgII\\efpt.config.json",
+              "RelativeDocumentMoniker": "CineTPIProgII\\efpt.config.json",
+              "ToolTip": "C:\\Users\\pedro\\OneDrive\\Desktop\\asd\\Facultad\\plan 2024\\Progra2\\TPI_Programacion\\CineTPIProgII\\CineTPIProgII\\efpt.config.json",
+              "RelativeToolTip": "CineTPIProgII\\efpt.config.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-08T18:42:56.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Sala.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\OneDrive\\Desktop\\asd\\Facultad\\plan 2024\\Progra2\\TPI_Programacion\\CineTPIProgII\\CineTPIProgII\\Models\\Sala.cs",
+              "RelativeDocumentMoniker": "CineTPIProgII\\Models\\Sala.cs",
+              "ToolTip": "C:\\Users\\pedro\\OneDrive\\Desktop\\asd\\Facultad\\plan 2024\\Progra2\\TPI_Programacion\\CineTPIProgII\\CineTPIProgII\\Models\\Sala.cs",
+              "RelativeToolTip": "CineTPIProgII\\Models\\Sala.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T18:42:56.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CineProgContext.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\OneDrive\\Desktop\\asd\\Facultad\\plan 2024\\Progra2\\TPI_Programacion\\CineTPIProgII\\CineTPIProgII\\Models\\CineProgContext.cs",
+              "RelativeDocumentMoniker": "CineTPIProgII\\Models\\CineProgContext.cs",
+              "ToolTip": "C:\\Users\\pedro\\OneDrive\\Desktop\\asd\\Facultad\\plan 2024\\Progra2\\TPI_Programacion\\CineTPIProgII\\CineTPIProgII\\Models\\CineProgContext.cs",
+              "RelativeToolTip": "CineTPIProgII\\Models\\CineProgContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T18:42:56.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DataHelper.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\OneDrive\\Desktop\\asd\\Facultad\\plan 2024\\Progra2\\TPI_Programacion\\CineTPIProgII\\CineTPIProgII\\Repositories\\Util\\DataHelper.cs",
+              "RelativeDocumentMoniker": "CineTPIProgII\\Repositories\\Util\\DataHelper.cs",
+              "ToolTip": "C:\\Users\\pedro\\OneDrive\\Desktop\\asd\\Facultad\\plan 2024\\Progra2\\TPI_Programacion\\CineTPIProgII\\CineTPIProgII\\Repositories\\Util\\DataHelper.cs",
+              "RelativeToolTip": "CineTPIProgII\\Repositories\\Util\\DataHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAACJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T18:42:56.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "settings.json",
+              "DocumentMoniker": "C:\\Users\\esequ\\OneDrive\\Escritorio\\Trabajo_Practico_Integrador\\CineTpi_Front\\.vscode\\settings.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\..\\esequ\\OneDrive\\Escritorio\\Trabajo_Practico_Integrador\\CineTpi_Front\\.vscode\\settings.json",
+              "ToolTip": "C:\\Users\\esequ\\OneDrive\\Escritorio\\Trabajo_Practico_Integrador\\CineTpi_Front\\.vscode\\settings.json",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\..\\esequ\\OneDrive\\Escritorio\\Trabajo_Practico_Integrador\\CineTpi_Front\\.vscode\\settings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-04T03:58:01.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ParameterSQL.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\OneDrive\\Desktop\\asd\\Facultad\\plan 2024\\Progra2\\TPI_Programacion\\CineTPIProgII\\CineTPIProgII\\Repositories\\Util\\ParameterSQL.cs",
+              "RelativeDocumentMoniker": "CineTPIProgII\\Repositories\\Util\\ParameterSQL.cs",
+              "ToolTip": "C:\\Users\\pedro\\OneDrive\\Desktop\\asd\\Facultad\\plan 2024\\Progra2\\TPI_Programacion\\CineTPIProgII\\CineTPIProgII\\Repositories\\Util\\ParameterSQL.cs",
+              "RelativeToolTip": "CineTPIProgII\\Repositories\\Util\\ParameterSQL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T18:42:56.232Z"
             }
           ]
         }

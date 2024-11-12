@@ -91,13 +91,12 @@ namespace CineTPIProgII.Controllers
         [HttpPost]
         public IActionResult Post([FromBody] Funcione funcion)
         {
-            if (funcion == null)
-                return BadRequest("La función no puede ser nula.");
-
             try
             {
-                var resultado = _repository.AltaFuncion(funcion);
-                return resultado ? Ok() : BadRequest("Error al agregar la función.");
+                if (funcion == null)
+                    return BadRequest("La función no puede ser nula.");
+                else
+                    return Ok(_repository.AltaFuncion(funcion));
             }
             catch (Exception ex)
             {

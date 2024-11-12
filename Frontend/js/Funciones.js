@@ -91,6 +91,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 // Columna Precio
                 const precioTd = document.createElement('td');
+                precioTd.classList.add('centrado');
                 precioTd.textContent = funcion.precio;
                 row.appendChild(precioTd);
 

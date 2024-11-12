@@ -21,6 +21,8 @@ namespace CineTPIProgII.Repositories
 
         public bool AltaFuncion(Funcione funcion)
         {
+
+
             try
             {
                 _context.Funciones.Add(funcion);

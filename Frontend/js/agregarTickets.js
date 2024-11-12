@@ -198,7 +198,9 @@ async function cargarEmpleados() {
             alert('Ocurrió un error al cargar las Funciones'); 
         } 
     }
-
+    //########################################################################################33
+    
+//########################################################################################
     // Evento para actualizar el label cuando cambia la selección
     selectFunciones.addEventListener('change', function(event) {
     const selectedOption = event.target.selectedOptions[0]; // Opción seleccionada

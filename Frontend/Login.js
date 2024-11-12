@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
             if (response.ok) {
                 // Si las credenciales son correctas, redirige a la página principal
                 localStorage.setItem("isLoggedIn", "true");
-                window.location.href = "Paginas_html\Menus_html\index.html";
+                window.location.href = "index.html";
             } else if (response.status === 401) {
                 const data = await response.json();
                 errorMessage.textContent = data.message || "Usuario o contraseña incorrectos";

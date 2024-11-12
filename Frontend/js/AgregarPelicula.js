@@ -39,6 +39,11 @@ document.addEventListener('DOMContentLoaded', function() {
         .then(data => {
             console.log('Película agregada:', data);
             document.getElementById('responseMessage').textContent = 'Película agregada exitosamente.';
+            if (confirm('Ir al listado?')) { 
+                window.location.href = 'Peliculas.html';
+            }else{
+                window.location.href = 'AgregarPelicula.html';
+            }
         })
         .catch(error => {
             console.error('Error al agregar la película:', error);
